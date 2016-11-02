@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=1, user-saclable = no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Respeaker login</title>
+    <link rel="stylesheet" href="css/seeed_public.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/sha.js"></script>
+</head>
+<body>
+    <div class="rp-login-wrap f14" id="rp-login">
+        <div class="rp-logo">
+            Respeaker - SeeedStudio
+            <img src="img/rp_logo_h.png" alt="" class="center">
+        </div>
+        <div class="row">
+            <input type="text" placeholder="SSID" readonly value="{{ssid_name}}" v-on:click='showSSIDList'>
+        </div>
+        <div class="row">
+            <input type="text" placeholder="Password" v-model="ssid_psw" v-on:focus="clearText">
+        </div>
+        <div class="row">
+            <a href="" class="btn-rp f16 btn-login" v-on:click.prevent="connectWifi">OK</a>
+        </div>
+        <a href="" class="seeed-logo">
+            SeeedStudio
+            <img src="img/logo_horizontal.png" alt="" class="center">
+        </a>
+        <!-- wifi list -->
+        <div class="layer" v-show="isShowList">
+            <div class="content center rp-list">
+                <ul class="f16 list">
+                    <li v-for="item in ssidList" v-on:click="chooseSSID">
+                        {{ item.ssid }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 弹出层 -->
+        <!-- <div class="layer tc">
+            <div class="content center">
+                <img src="img/success.png" alt="" class="ico center">
+                <p>Respeaker is now ready.</p>
+                <p>Have Fun!</p>
+            </div>
+        </div> -->
+    </div>
+    <script type="text/javascript" src="js/vue.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

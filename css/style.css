@@ -1,0 +1,103 @@
+/*
+ * respeaker style
+ * pc @ 2016-09-22
+ */
+@charset "UTF-8";
+body {
+    font-family: "OpenSans", "Helvetica", "Arial", "sans-serif";
+    font-size: 16px;
+    color: #4a4a4a;
+}
+a { text-decoration: none;}
+/*public style*/
+.c-rp { color: #B3996D;}
+.btn-rp {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #B3996D;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+.rp-login-wrap { padding: 0 28px;}
+.rp-logo {
+    text-indent: -99em;
+    margin: 50px 0 90px 0;
+}
+.rp-logo img {
+    width: 60%;
+}
+.row { width: 100%; margin: 12px 0;}
+.row input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    line-height: 48px;
+    color: #9B9B9b;
+}
+.btn-login {
+    display: block;
+    color: #fff;
+}
+.seeed-logo {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    text-indent: -999em;
+}
+.seeed-logo img {
+    width: 10em;
+}
+.layer {
+    position: absolute;
+    /*text-align: center;*/
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5) none repeat scroll !important;
+    background:#000;
+    filter:Alpha(opacity=50);
+}
+.layer .content {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 320px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.layer .ico {
+    width: 97px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+.layer p {
+    margin: 10px 0;
+}
+/*list*/
+.rp-list {
+    padding:20px;
+}
+.rp-list .list {
+    height: 320px;
+    list-style-type: none;
+    padding: 0;
+    overflow: scroll;
+}
+.rp-list .list li {
+    padding-left: 10px;
+    line-height: 50px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.rp-list .list li:last-child { border: none;}

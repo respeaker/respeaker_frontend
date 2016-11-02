@@ -1,0 +1,177 @@
+/**
+* @file  public.css
+* @description  seeed.cc public style
+* @author seeed-int 2015-11-27
+*/
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/*position*/
+.abs { position: absolute;}
+.rel { position: relative;}
+.fixed { position: fixed;}
+.t0 { top: 0;}
+.b0 { bottom: 0;}
+.l0 { left: 0;}
+.r0 { right: 0;}
+
+/*margin-left*/
+.ml5 { margin-left: 5px;}
+.ml10 { margin-left: 10px;}
+.ml15 { margin-left: 15px;}
+.ml20 { margin-left: 20px;}
+.ml25 { margin-left: 25px;}
+.ml30 { margin-left: 30px;}
+.ml35 { margin-left: 35px;}
+.ml40 { margin-left: 40px;}
+.ml45 { margin-left: 45px;}
+.ml50 { margin-left: 50px;}
+/*margin-right*/
+.mr5 { margin-right: 5px;}
+.mr10 { margin-right: 10px;}
+.mr15 { margin-right: 15px;}
+.mr20 { margin-right: 20px;}
+.mr25 { margin-right: 25px;}
+.mr30 { margin-right: 30px;}
+.mr35 { margin-right: 35px;}
+.mr40 { margin-right: 40px;}
+.mr45 { margin-right: 45px;}
+.mr50 { margin-right: 50px;}
+/*margin-top*/
+.mt5 { margin-top: 5px;}
+.mt10 { margin-top: 10px;}
+.mt15 { margin-top: 15px;}
+.mt20 { margin-top: 20px;}
+.mt25 { margin-top: 25px;}
+.mt30 { margin-top: 30px;}
+.mt35 { margin-top: 35px;}
+.mt40 { margin-top: 40px;}
+.mt45 { margin-top: 45px;}
+.mt50 { margin-top: 50px;}
+/*margin-bottom*/
+.mb5 { margin-bottom: 5px;}
+.mb10 { margin-bottom: 10px;}
+.mb15 { margin-bottom: 15px;}
+.mb20 { margin-bottom: 20px;}
+.mb25 { margin-bottom: 25px;}
+.mb30 { margin-bottom: 30px;}
+.mb35 { margin-bottom: 35px;}
+.mb40 { margin-bottom: 40px;}
+.mb45 { margin-bottom: 45px;}
+.mb50 { margin-bottom: 50px;}
+/*margin-left-right*/
+.mlr10 { margin-left: 10px;margin-right: 10px;}
+/*margin-top-bottom*/
+.mtb50 { margin-top: 50px;margin-bottom: 50px;}
+.mtb100 { margin-top: 100px;margin-bottom: 100px;}
+.m0 { margin:0px }
+
+/*padding-left*/
+.pl5 { padding-left: 5px;}
+.pl10 { padding-left: 10px;}
+.pl15 { padding-left: 15px;}
+.pl20 { padding-left: 20px;}
+.pl25 { padding-left: 25px;}
+.pl30 { padding-left: 30px;}
+.pl35 { padding-left: 35px;}
+.pl40 { padding-left: 40px;}
+.pl45 { padding-left: 45px;}
+.pl50 { padding-left: 50px;}
+/*padding-right*/
+.pr5 { padding-right: 5px;}
+.pr10 { padding-right: 10px;}
+.pr15 { padding-right: 15px;}
+.pr20 { padding-right: 20px;}
+.pr25 { padding-right: 25px;}
+.pr30 { padding-right: 30px;}
+.pr35 { padding-right: 35px;}
+.pr40 { padding-right: 40px;}
+.pr45 { padding-right: 45px;}
+.pr50 { padding-right: 50px;}
+/*padding-top*/
+.pt5 { padding-top: 5px;}
+.pt10 { padding-top: 10px;}
+.pt15 { padding-top: 15px;}
+.pt20 { padding-top: 20px;}
+.pt25 { padding-top: 25px;}
+.pt30 { padding-top: 30px;}
+.pt35 { padding-top: 35px;}
+.pt40 { padding-top: 40px;}
+.pt45 { padding-top: 45px;}
+.pt50 { padding-top: 50px;}
+/*padding-bottom*/
+.pb5 { padding-bottom: 5px;}
+.pb10 { padding-bottom: 10px;}
+.pb15 { padding-bottom: 15px;}
+.pb20 { padding-bottom: 20px;}
+.pb25 { padding-bottom: 25px;}
+.pb30 { padding-bottom: 30px;}
+.pb35 { padding-bottom: 35px;}
+.pb40 { padding-bottom: 40px;}
+.pb45 { padding-bottom: 45px;}
+.pb50 { padding-bottom: 50px;}
+
+.center { margin-left: auto; margin-right: auto;}
+
+/*font-size*/
+.f12 { font-size: 12px;}
+.f13 { font-size: 13px;}
+.f14 { font-size: 14px;}
+.f16 { font-size: 16px;}
+.f18 { font-size: 18px;}
+.f20 { font-size: 20px;}
+.f22 { font-size: 22px;}
+.f23-3 { font-size: 23.3px;}
+.f24 { font-size: 24px;}
+.f26 { font-size: 26px;}
+
+/*font-style*/
+.bold { font-weight: bold;}
+.normal { font-weight: normal;}
+.italic { font-size: italic;}
+
+/*line-height*/
+.lh16 { line-height: 16px;}
+.lh40 { line-height: 40px;}
+
+/*display*/
+.hide { display: none;}
+.dis-block { display: block;}
+.hidden { visibility:hidden;}
+.inline-block { display: inline-block;}
+
+/*text*/
+.tc { text-align: center;}
+.tl { text-align: left;}
+.tr { text-align: right;}
+
+.ver-middle { vertical-align: middle;}
+.ver-top { vertical-align: top;}
+.ver-bottom { vertical-align: bottom;}
+
+/*overflow*/
+.ofa { overflow: auto;}
+.ofh { overflow: hidden;}
+
+/*文本超出显示省略号*/
+.text-omitt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*强制英文不换行*/
+.no-wrap { word-break:break-all;}
+
+/*float & clear*/
+.fl { float: left;}
+.fr { float: right;}
+.clear { *zoom:1;}
+.clear:after { display: block; content: ""; clear: both;}
+
+/*other*/
+.cun { cursor: normal;}
+.cup { cursor: pointer;}
+
+img { display: block; vertical-align: middle;}
