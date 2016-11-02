@@ -18,7 +18,7 @@ respeaker.login = new Vue({
 
     },
     ready: function (){
-        var wsUrl = "ws://192.168.7.155/websocket/",
+        var wsUrl = "ws://"+location.host+"/websocket/",
         _self = this;
         this.ws = new WebSocket(wsUrl);
         // console.log(this.ws)
@@ -39,7 +39,7 @@ respeaker.login = new Vue({
                     
                 }else if(JSON.parse(res.data).id == 4){
                     //处理失败
-                    
+                    window.location.href="https://www.baidu.com/";     
                 }else{
                     console.log(JSON.parse(res.data).result);
                     showWifi(res);
