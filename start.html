@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#3c3c3c;
+        margin: 0;
+        padding: 0;
+    }
+    a { color: #3c3c3c; text-decoration: none; }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    /*.rel { position: relative;}*/
+    .rp-block-01 {
+        width: 80%;
+        margin-top: -40%;
+    }
+    .rp-img-01 {
+        position: relative;
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    .rp-text { font-size: 1.4em;}
+    .rp-btn {
+        position: absolute;
+        bottom: 4%;
+        width: 40%;
+        margin: 0 auto;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 2px;
+        border: 1px solid;
+    }
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="rp-block-01">
+                    Sign up or login with Seeed
+                </div>
+                <div class="rp-btn j-next">Next</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rp-block-01">
+                    <img src="img/rp_app_02.png" alt="ReSpeaker" class="rp-img-01">
+                    <div class="rp-text">Connect ReSpeaker <br>to your drive unit via AUX</div>
+                </div>
+                <div class="rp-btn j-next">Next</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rp-block-01">
+                    <h1>Hello</h1>
+                    <div>I am ReSpeaker,<br> you can play music just like;</div>
+                    <h2 style="font-size: 1.2em;">"Hi, ReSpeaker, play music"</h2>
+                </div>
+                <div class="rp-btn j-next">Try it</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rp-block-01">
+                    <img src="img/rp_app_01.jpg" alt="ReSpeaker" class="rp-img-01">
+                </div>
+                <a href="/home.html" class="rp-btn">Try more</a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        // pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.j-next',
+    });
+    </script>
+</body>
+</html>
