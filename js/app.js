@@ -7,10 +7,10 @@ console.log('Start vue ……');
 respeaker.login = new Vue({
     el: '#rp-login',
     data: {
-        ssid_name : 'Choose your wifi',     //wifi名
-        ssid_psw: '',                       //wifi密码
-        isShowList: false,                  //是否打开wifi列表
-        ssidList:[                          //wifi list
+        ssid_name : 'Select your Wi-Fi',     // Wi-Fi SSID
+        ssid_psw: '',                       // Wi-Fi password
+        isShowList: false,
+        ssidList:[
             { id: 'seeed' },
         ],
         token: '',
@@ -38,8 +38,7 @@ respeaker.login = new Vue({
                     adminLogin(res);
                     
                 }else if(JSON.parse(res.data).id == 4){
-                    //处理失败
-                    window.location.href="https://www.baidu.com/";     
+                    window.location.href="http://"+location.host+"/start.html";
                 }else{
                     console.log(JSON.parse(res.data).result);
                     showWifi(res);
@@ -100,14 +99,10 @@ respeaker.login = new Vue({
 
     },
     methods: {
-
-        // 显示列表
         showSSIDList: function(){
             console.log("ssssss");
             this.isShowList = true;
             var _self = this;
-            // var wsUrl = "ws://192.168.6.146/websocket/";
-            // var ws = new WebSocket(wsUrl);
 
             console.log( _self.ws)
 
@@ -118,7 +113,6 @@ respeaker.login = new Vue({
 
             
         },
-        // 选择wifi
         chooseSSID: function(el){
             this.ssid_name = el.target.innerText.trim();
             this.isShowList = false;
@@ -128,7 +122,6 @@ respeaker.login = new Vue({
             this.ssid_psw = '';
         },
 
-        // 连接 wifi
         connectWifi: function(){
             if(this.ssid_psw.trim() == ''){
                 alert('Please enter the wifi password');
@@ -136,8 +129,6 @@ respeaker.login = new Vue({
             }
 
             this.ws.send('{"jsonrpc": "2.0","id": 4,"method": "call","params": ["'+this.token+'","/juci/rewifi","connect",{"ifname":"ra0","staname":"apcli0","essid":"'+this.ssid_name+'","passwd":"'+this.ssid_psw+'"}]}');
-            // 执行连接，do something
-            //alert('连接成功');
         }
     }
 });
