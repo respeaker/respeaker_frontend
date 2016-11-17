@@ -41,6 +41,23 @@
         font-size: 1.5em;
     }
     .rp-list a:last-child { border-bottom: none;}
+    /* query style */
+    @media screen and (min-width: 800px) {
+        .rp-header {
+            line-height: 50px;
+            padding: 0 0 0 20px;
+            font-size: 20px;
+        }
+        .rp-list {
+            width: 600px;
+            margin: 60px auto;
+            padding: 0 50px;
+        }
+        .rp-list a {
+            line-height: 80px;
+            padding: 0;
+        }
+    }
     </style>
 </head>
 <body>
@@ -48,10 +65,11 @@
         ReSpeaker
     </div>
     <div class="rp-list">
-        <a href="/">Dashboard</a>
-        <a href="/filemanager/">File Manager</a>
-        <a href="/music/">Music Player</a>
-        <a href="/terminal/">Web Terminal</a>
+        <a href="/" target="_blank">Dashboard</a>
+        <a href="/filemanager/" target="_blank">File Manager</a>
+        <a href="/music/" target="_blank">Music Player</a>
+        <a href="/terminal/" target="_blank">Web Terminal</a>
+        <a href="/login.html" target="_blank">Wi-Fi Settings</a>
     </div>
     <script>
     </script>

@@ -67,15 +67,29 @@
         border-radius: 2px;
         border: 1px solid;
     }
+    /* query style */
+    @media screen and (min-width: 800px) {
+        body {
+            background-color: #fff;
+        }
+        #rp-wrap {
+            width: 800px;
+            height: 500px;
+            margin-top: 15%;
+        }
+        .rp-img-01{
+            width: 200px;
+        }
+    }
     </style>
 </head>
 <body>
     <!-- Swiper -->
-    <div class="swiper-container">
+    <div class="swiper-container" id="rp-wrap">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="rp-block-01">
-                    Sign up or login with Seeed
+                    Sign up or login Seeed (To Do)
                 </div>
                 <div class="rp-btn j-next">Next</div>
             </div>
@@ -98,7 +112,7 @@
                 <div class="rp-block-01">
                     <img src="img/rp_app_01.jpg" alt="ReSpeaker" class="rp-img-01">
                 </div>
-                <a href="/home.html" class="rp-btn">Try more</a>
+                <a href="/home.html" class="rp-btn">Explore</a>
             </div>
         </div>
         <!-- Add Pagination -->
