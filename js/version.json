@@ -1,8 +1,0 @@
-{
-    "jsonrpc": "2.0",
-    "id": 99,
-    "result": {
-        "version":"v0.9.99",
-        "md5sum":"f11d83432f3238ed12d8106eeea782fb"
-    }
-}
