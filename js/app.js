@@ -50,8 +50,13 @@ respeaker.login = new Vue({
         }
 
         var _self = this;
+<<<<<<< HEAD
         // var wsUrl = "ws://"+location.host+"/websocket/";
         var wsUrl = "ws://192.168.100.1/websocket/";
+=======
+        var wsUrl = "ws://"+location.host+"/websocket/";
+        // var wsUrl = "ws://192.168.100.1/websocket/";
+>>>>>>> origin/master
         _self.ws = new WebSocket(wsUrl);
 
         // console.log(this.ws)
@@ -113,6 +118,10 @@ respeaker.login = new Vue({
                     // connect failed
                     if(JSON.parse(res.data).result.result == 'failed') {
                         alert('connect error');
+<<<<<<< HEAD
+=======
+                        _self.isConnectingWifi = false;
+>>>>>>> origin/master
                     }
 
                     // location
@@ -328,6 +337,7 @@ respeaker.login = new Vue({
             this.isConnectingWifi = true;
             var connect_param = '{"jsonrpc": "2.0","id": 4,"method": "call","params": ["'+this.token+'","/juci/rewifi","connect",{"apname":"ra0","staname":"apcli0","ssid":"'+this.nowChooseItem.ssid+'","passwd":"'+this.ssid_psw+'", "channel":"'+this.nowChooseItem.channel+'", "security":"'+this.nowChooseItem.security+'", "bssid":"'+this.nowChooseItem.bssid+'" }]}';
             this.ws.send(connect_param);
+<<<<<<< HEAD
 
             // console.log(this.ws_res)
             // console.log(this.ssid_psw)
@@ -378,5 +388,53 @@ respeaker.login = new Vue({
             this.isConnectingWifi = false;
         }
 
+=======
+
+            // console.log(this.ws_res)
+            // console.log(this.ssid_psw)
+        },
+
+        closeWifiList: function(){
+            this.isShowList = !this.isShowList;
+        },
+
+        // get version differences count
+        getVerCalculation: function (ver_now, ver_new) {
+            var count_1 = ver_now.substr(1).replace(/\./g, ''),
+                count_2 = ver_new.substr(1).replace(/\./g, '');
+                return (Number(count_2) - Number(count_1));
+        },
+
+        updateFirmware: function(){
+            // console.log(this.ws_res);
+            // console.log(this.ws);
+
+            // update version
+            this.isDownLoadingFirmware = true;
+            var dl_param  = '{"jsonrpc": "2.0","id": 15,"method":"call","params": ["'+this.token+'","/system","download",{}] }';
+            this.ws.send(dl_param);
+
+            // get progress
+            var get_progress_param = '{"jsonrpc":"2.0","id":14,"method":"call","params":["'+this.token+'","/system","progress",{}]}';
+            this.ws.send(get_progress_param);
+        },
+
+        skipFirmware: function(){
+            console.log('skip this version ');
+            this.isOpenUpdate = false;
+            var count = this.getVerCalculation(this.thisVersion, this.latestVersion),
+            skip_param = '{"jsonrpc":"2.0","id":12,"method":"call","params":["'+this.token+'","/system","setskip",{"value":"'+count+'"}]}';
+            console.log(count);
+            // console.log(skip_param);
+            this.ws.send(skip_param);
+            // skip version done
+        },
+
+        updateNow: function(){
+            var final_update_param = '{"jsonrpc":"2.0","id":17,"method":"call","params":["'+this.token+'","/system","upgrade",{}]}';
+            _self.ws.send(final_update_param);
+        },
+
+>>>>>>> origin/master
     }
 });
