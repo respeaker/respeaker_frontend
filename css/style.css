@@ -151,11 +151,7 @@ a { text-decoration: none;}
     position: absolute;
     right: 0;
     top: 0;
-<<<<<<< HEAD
     width: 20px;
-=======
-    width: 25px;
->>>>>>> origin/master
     padding: 10px;
 }
 .update-box .btn {
