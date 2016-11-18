@@ -3,9 +3,14 @@
 <head>
     <meta charset="utf-8">
     <title>ReSpeaker</title>
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <!-- Demo styles -->
-    <style>
+    <meta name="viewport"
+          content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="css/seeed_public.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vue.min.js"></script>
+    <script src="js/sha.js"></script>
+</head>
+<style>
     html, body {
         position: relative;
         height: 100%;
@@ -58,12 +63,15 @@
             padding: 0;
         }
     }
-    </style>
+
+</style>
 </head>
 <body>
-    <div class="rp-header">
-        ReSpeaker
-    </div>
+<div class="rp-header">
+    ReSpeaker
+</div>
+<div class="rp-login-wrap f14" id="home">
+
     <div class="rp-list">
         <a href="/" target="_blank">Dashboard</a>
         <a href="/filemanager/" target="_blank">File Manager</a>
@@ -71,7 +79,37 @@
         <a href="/terminal/" target="_blank">Web Terminal</a>
         <a href="/login.html" target="_blank">Wi-Fi Settings</a>
     </div>
-    <script>
-    </script>
+
+    <div class="layer tc" v-if="isOpenUpdate">
+        <div class="content center update-box">
+            <div v-if="!isDownLoadingFirmware && !isDownLoadingFirmwareDone">
+                <p class="text">A new firmware is available. Update now?</p>
+                <div>
+                    <a href="#" class="btn btn-rp" @click.prevent="updateFirmware">UPDATE</a>
+                    <a href="#" class="btn btn-cancle" @click.prevent="skipFirmware">SKIP</a>
+                </div>
+            </div>
+            <!-- downloading -->
+            <div v-if="isDownLoadingFirmware">
+                <div class="text">Downloading {{ downloadProgress }}</div>
+            </div>
+            <!-- final update -->
+            <div v-if="isDownLoadingFirmwareDone">
+                <div v-if="isMD5Pass">
+                    <p class="text">Download Success</p>
+                    <a href="#" class="btn btn-rp btn-update-now" @click.prevent="updateNow">UPDATE NOW</a>
+                </div>
+                <div else>
+                    <p class="text">Download error</p>
+                </div>
+            </div>
+            <div v-if="isUpgradeCountingDown">
+                <div class="text"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
