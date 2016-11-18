@@ -50,8 +50,8 @@ respeaker.login = new Vue({
         }
 
         var _self = this;
-        // var wsUrl = "ws://"+location.host+"/websocket/";
-        var wsUrl = "ws://192.168.100.1/websocket/";
+        var wsUrl = "ws://"+location.host+"/websocket/";
+        // var wsUrl = "ws://192.168.100.1/websocket/";
         _self.ws = new WebSocket(wsUrl);
 
         // console.log(this.ws)
