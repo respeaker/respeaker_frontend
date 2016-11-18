@@ -50,7 +50,7 @@
         <!-- wifi list -->
         <div class="layer j-rp-list" v-show="isShowList">
             <div class="content center rp-list">
-                <img src="img/close.svg" class="btn-close-list" @click.prevent="closeWifiList"></img>
+                <img src="img/close.png" class="btn-close-list" @click.prevent="closeWifiList"></img>
                 <ul class="f16 list">
                     <template v-for="item in ssidList">
                         <li v-on:click="chooseSSID(item)" v-show="item.ssid != ''">
