@@ -28,6 +28,7 @@ respeaker.home = new Vue({
         isDownLoadingFirmwareDone: false,
         isUpgradeCountingDown: false,
         downloadProgress: '',
+        md5status: '',
         isMD5Pass: false,
         interval: null,
     },
@@ -140,6 +141,7 @@ respeaker.home = new Vue({
                             _self.isDownLoadingFirmware = false;
                             var check_md5_param = '{"jsonrpc": "2.0","id": 16,"method":"call","params": ["'+_self.token+'","/system","check",{}] }';
                            _self.ws.send(check_md5_param);
+                           _self.md5status = 'Checking MD5...';
                             _self.isDownLoadingFirmwareDone = true;
                         }
                     }
@@ -168,7 +170,18 @@ respeaker.home = new Vue({
                     console.log(_self.latestVersionMd5);
                     if( download_md5 == _self.latestVersionMd5 ){
                         _self.isMD5Pass = true;
+                    } else {
+                        _self.md5status = 'MD5 not match';
                     }
+                }
+
+                // 17 update button clicked
+                if(JSON.parse(res.data).id == 17 ) {
+                    // console.log(JSON.parse(res.data).result.results)
+                    _self.isDownLoadingFirmware = false;
+                    _self.isDownLoadingFirmwareDone = false;
+
+                    _self.isUpgradeCountingDown = true;
                 }
 
                 // 18 check skip
