@@ -112,6 +112,7 @@ respeaker.login = new Vue({
 
                     // connect failed
                     if(JSON.parse(res.data).result.result == 'failed') {
+                        _self.isConnectingWifi = false;
                         alert('connect error');
                     }
 
