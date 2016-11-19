@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>ReSpeaker</title>
-    <meta name="viewport"
-          content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <link rel="stylesheet" href="css/seeed_public.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vue.min.js"></script>
     <script src="js/sha.js"></script>
 </head>
 <style>
-    html, body {
+    html,
+    body {
         position: relative;
         height: 100%;
     }
+    
     body {
         background: #eee;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
-        color:#3c3c3c;
+        color: #3c3c3c;
         margin: 0;
         padding: 0;
     }
-    a { color: #3c3c3c; text-decoration: none; }
+    
+    a {
+        color: #3c3c3c;
+        text-decoration: none;
+    }
+    
     .rp-header {
         padding: 5%;
         color: #fff;
@@ -32,12 +39,14 @@
         background-color: #0c84e4;
         box-shadow: 0 3px 3px #dfdfdf;
     }
+    
     .rp-list {
         margin: 5% 2%;
         border-radius: 5px;
         padding: 0 6%;
         background-color: #fff;
     }
+    
     .rp-list a {
         width: 100%;
         display: block;
@@ -45,8 +54,12 @@
         border-bottom: 1px solid #dfdfdf;
         font-size: 1.5em;
     }
-    .rp-list a:last-child { border-bottom: none;}
+    
+    .rp-list a:last-child {
+        border-bottom: none;
+    }
     /* query style */
+    
     @media screen and (min-width: 800px) {
         .rp-header {
             line-height: 50px;
@@ -63,62 +76,73 @@
             padding: 0;
         }
     }
-
-.aligncenter {
-clear: both;
-display: block;
-margin:auto;
-}
-
+    
+    .aligncenter {
+        clear: both;
+        display: block;
+        margin: auto;
+    }
 </style>
 </head>
+
 <body>
-<div class="rp-header">
-    ReSpeaker
-</div>
-<div class="rp-login-wrap f14" id="home">
-
-    <div class="rp-list">
-        <a href="/" target="_blank">Dashboard</a>
-        <a href="/filemanager/" target="_blank">File Manager</a>
-        <a href="/music/" target="_blank">Music Player</a>
-        <a href="/terminal/" target="_blank">Web Terminal</a>
-        <a href="/login.html" target="_blank">Wi-Fi Settings</a>
+    <div class="rp-header">
+        ReSpeaker
     </div>
+    <div class="rp-login-wrap f14" id="home">
 
-    <div class="layer tc" v-if="isOpenUpdate">
-        <div class="content center update-box">
-            <div v-if="!isDownLoadingFirmware && !isDownLoadingFirmwareDone && !isUpgradeCountingDown">
-                <p class="text">A new firmware is available. Update now?</p>
-                <div>
-                    <a href="#" class="btn btn-rp" @click.prevent="updateFirmware">UPDATE</a>
-                    <a href="#" class="btn btn-cancle" @click.prevent="skipFirmware">SKIP</a>
+        <div class="rp-list">
+            <a href="/" target="_blank">Dashboard</a>
+            <a href="/filemanager/" target="_blank">File Manager</a>
+            <a href="/music/" target="_blank">Music Player</a>
+            <a href="/terminal/" target="_blank">Web Terminal</a>
+            <a href="/login.html" target="_blank">Wi-Fi Settings</a>
+            <a href="#" @click.prevent="checkSystemUpdate">System Update</a>
+        </div>
+
+        <div class="layer tc" v-if="isOpenUpdate">
+            <div class="content center update-box">
+                <img src="img/close.png" class="btn-close-list" @click.prevent="hideSystemUpdate"></img>
+                <p>System Update</p>
+                <div v-if="!isDownloadProgress && !isDownLoadingFirmwareDone && !isUpgradeCountingDown && !isShowMessage">
+                    <p class="text">A new firmware is available. Update now?</p>
+                    <div>
+                        <a href="#" class="btn btn-rp" @click.prevent="updateFirmware">UPDATE</a>
+                        <a href="#" class="btn btn-cancle" @click.prevent="skipFirmware">SKIP</a>
+                    </div>
                 </div>
-            </div>
-            <!-- downloading -->
-            <div v-if="isDownLoadingFirmware">
-                <div class="text">Downloading {{ downloadProgress }}</div>
-            </div>
-            <!-- final update -->
-            <div v-if="isDownLoadingFirmwareDone">
-                <div v-if="isMD5Pass">
-                    <p class="text">Download Success</p>
-                    <a href="#" class="btn btn-rp btn-update-now" @click.prevent="updateNow">UPDATE NOW</a>
+                <!-- checking -->
+                <div v-if="isShowMessage">
+                    <div class="text">{{ systemUpdateMessage }}</div>
                 </div>
-                <div else>
-                    <p class="text"> {{ md5status }}</p>
+
+                <!-- downloading -->
+                <div v-if="isDownloadProgress">
+                    <div class="text">{{ downloadMessage }}</div>
+                    <div v-if="isRetryDownload">
+                        <a href="#" class="btn btn-rp" @click.prevent="updateFirmware">RETRY</a>
+                    </div>
                 </div>
-            </div>
-            <div v-if="isUpgradeCountingDown">
-                <div class="text">
-                    <img class="aligncenter" src="img/loading.gif" align="middle"/>
-                    <p>System upgrading...</p>
+                <!-- final update -->
+                <div v-if="isDownLoadingFirmwareDone">
+                    <div>
+                        <p class="text">Download Success</p>
+                        <a href="#" class="btn btn-rp btn-update-now" @click.prevent="updateNow">UPDATE NOW</a>
+                    </div>
+                </div>
+                <div v-if="isUpgradeCountingDown">
+                    <div class="text">
+                        <img class="aligncenter" src="img/loading.gif" align="middle" />
+                        <p> {{ upgradingHint }}</p>
+                        <p>It will take about 60 seconds.</p>
+                        <p>Please don't power off your device!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/main.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
