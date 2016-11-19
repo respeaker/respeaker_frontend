@@ -83,7 +83,7 @@ respeaker.login = new Vue({
                         // clear wifi portal
                         self.ws.send('{"jsonrpc": "2.0","id": 20,"method": "call","params": ["' + self.token + '","/juci/rewifi","clear",{"flag": 0}]}');
 
-                        //window.location.href = "/start.html";
+                        window.location.href = "/start.html";
                     } else if (data.result.result == 'failed') {
                         self.isConnectingWifi = false;
                         self.message = 'Failed to connect ' + self.currentChooseItem.ssid;
