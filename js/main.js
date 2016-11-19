@@ -109,14 +109,14 @@ respeaker.home = new Vue({
                 // Download progress
                 if (data.hasOwnProperty('result')) {
                     if (data.result.results[0].status == 'downloading') {
-                        self.downloadMessage = 'Downloading ' + data.result.results[0].progress + '%';
-                        console.log('progress:' + self.downloadMessage)
-                    } else if (data.result.results[0].status == 'ok') {
                         var progress = '0';
                         if (data.result.results[0].progress) {
                             progress = data.result.results[0].progress;
                         }
-                        self.downloadMessage = 'Downloading ' + data.result.results[0].progress + '%';
+                        self.downloadMessage = 'Downloading ' + progress + '%';
+                        console.log('progress:' + self.downloadMessage)
+                    } else if (data.result.results[0].status == 'ok') {
+                        self.downloadMessage = 'Downloaded ' + data.result.results[0].progress + '%';
                         clearInterval(self.interval);
                         self.isOpenUpdate = true;
                         self.isDownloadProgress = false;
