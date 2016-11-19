@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
@@ -10,6 +11,7 @@
     <script src="js/vue.min.js"></script>
     <script src="js/sha.js"></script>
 </head>
+
 <body>
     <div class="rp-login-wrap f14" id="rp-login">
         <div class="rp-logo">
@@ -27,19 +29,6 @@
             </div>
             <div class="row">
                 <a href="" class="btn-rp f16 btn-login" v-on:click.prevent="connectWifi">OK</a>
-            </div>
-        </div>
-        <!-- fill in wifi -->
-        <div v-if="!isNormalList">
-            <div class="row">
-                <input type="text" placeholder="SSID" value="root" readOnly v-model="currentChooseItem.ssid">
-            </div>
-            <div class="row">
-                <!-- <input type="password" placeholder="Password" v-model="ssid_psw" v-on:focus="clearText"> -->
-                <input type="password" placeholder="Password" v-model="ssid_psw">
-            </div>
-            <div class="row">
-                <a href="#" class="btn-rp f16 btn-login j-fill-account">OK</a>
             </div>
         </div>
 
@@ -61,7 +50,7 @@
                     </template>
                 </ul>
                 <div class="wifi-searching" v-if="!isSearchWifiDone">
-                    <img src="img/loading.gif" alt="search wifi" >
+                    <img src="img/loading.gif" alt="search wifi">
                     <div>Scanning wifi</div>
                 </div>
             </div>
@@ -82,7 +71,7 @@
             </div>
         </div>
         <div class="layer tc" v-if="isConnectingWifi">
-        <!-- <div class="layer tc"> -->
+            <!-- <div class="layer tc"> -->
             <div class="content center">
                 <img src="img/close.png" class="btn-close-list" @click.prevent="closeWifiConnect"></img>
                 <img src="img/loading.gif" alt="" class="ico center loading-gif">
@@ -93,4 +82,5 @@
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
