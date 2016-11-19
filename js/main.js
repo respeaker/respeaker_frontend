@@ -7,7 +7,6 @@ respeaker.home = new Vue({
     data: {
         token: '',
         ws: '',
-        //wsUrl: "ws://"+location.host+"/websocket/",
         wsUrl: "ws://192.168.100.1/websocket/",
         ws_token: '',
         ws_res: {},
@@ -33,6 +32,9 @@ respeaker.home = new Vue({
     },
     ready: function() {
         var self = this;
+        if (!location.host.startsWith('localhost') && !location.host.startsWith('127.0.0.1')) {
+            self.wsUrl = "ws://" + location.host + "/websocket/";
+        }
         self.ws = new WebSocket(self.wsUrl);
 
         // console.log(this.ws)

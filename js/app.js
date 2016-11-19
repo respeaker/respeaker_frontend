@@ -2,7 +2,7 @@
 var respeaker = {};
 
 // filter Wi-Fi single count
-Vue.filter('formatSingle', function (value) {
+Vue.filter('formatSingle', function(value) {
     // 3 Wi-Fi signal level
     return Math.ceil(value / 30)
 })
@@ -16,7 +16,6 @@ respeaker.login = new Vue({
         ssidList: {},
         token: '',
         ws: '',
-        // wsUrl: "ws://"+location.host+"/websocket/",
         wsUrl: "ws://192.168.100.1/websocket/",
         wsToken: '',
         wsResponse: {},
@@ -35,16 +34,19 @@ respeaker.login = new Vue({
         isShowMessage: false,
         message: '',
     },
-    ready: function () {
+    ready: function() {
         var self = this;
+        if (!location.host.startsWith('localhost') && !location.host.startsWith('127.0.0.1')) {
+            self.wsUrl = "ws://" + location.host + "/websocket/";
+        }
         var run = function() {
             self.ws = new WebSocket(self.wsUrl);
-            self.ws.onopen = function (message) {
+            self.ws.onopen = function(message) {
                 console.log("connect");
                 self.ws.send('{"jsonrpc":"2.0","id":0,"method":"challenge","params":[]}')
             };
 
-            self.ws.onmessage = function (message) {
+            self.ws.onmessage = function(message) {
                 self.wsResponse = message;
                 var data = JSON.parse(message.data);
 
@@ -92,16 +94,16 @@ respeaker.login = new Vue({
                 }
             }
 
-            self.ws.onerror = function (message) {
+            self.ws.onerror = function(message) {
                 console.log(message);
-                setTimeout(function () {
+                setTimeout(function() {
                     run()
                 }, 3000);
             }
 
-            self.ws.onclose = function (message) {
+            self.ws.onclose = function(message) {
                 console.log(message);
-                setTimeout(function () {
+                setTimeout(function() {
                     run()
                 }, 1000);
             }
@@ -122,7 +124,7 @@ respeaker.login = new Vue({
         run();
 
         // close list
-        $('body').on("click", '.j-rp-list', function (e) {
+        $('body').on("click", '.j-rp-list', function(e) {
             var $target = $(e.target);
             if ($target.closest(".rp-list").length == 0) {
                 self.isShowList = false;
@@ -130,7 +132,7 @@ respeaker.login = new Vue({
         })
 
         // login admin account
-        $('body').on('click', '.j-fill-account', function () {
+        $('body').on('click', '.j-fill-account', function() {
             if (this.ssid_psw == '' && this.currentChooseItem.security != 'NONE') {
                 self.message = 'Please enter the password';
                 self.isShowMessage = true;
@@ -143,7 +145,7 @@ respeaker.login = new Vue({
 
     },
     methods: {
-        tokenSHA: function (the_token, psw) {
+        tokenSHA: function(the_token, psw) {
             console.log(the_token)
             var token = the_token;
             var sha = new jsSHA("SHA-1", "TEXT");
@@ -158,23 +160,23 @@ respeaker.login = new Vue({
         },
 
         // show Wi-Fi SSID list
-        showSSIDList: function () {
+        showSSIDList: function() {
             this.isShowList = true;
             this.ws.send('{"jsonrpc": "2.0","id": 3,"method": "call","params": ["' + this.token + '","/juci/rewifi","scan",{"device": "ra0"}]}');
         },
         // choose Wi-Fi
-        chooseSSID: function (item) {
+        chooseSSID: function(item) {
             this.currentChooseItem = item;
             console.log(item)
             this.ssid_name = event.target.innerText.trim();
             this.isShowList = false;
         },
         //clearText
-        clearText: function () {
+        clearText: function() {
             this.ssid_psw = '';
         },
 
-        connectWifi: function () {
+        connectWifi: function() {
             if (this.ssid_psw == '' && this.currentChooseItem.security != 'NONE') {
                 this.message = 'Please enter the password of ' + this.currentChooseItem.ssid;
                 this.isShowMessage = true;
@@ -185,15 +187,15 @@ respeaker.login = new Vue({
             this.ws.send(connect_param);
         },
 
-        closeMessage: function () {
+        closeMessage: function() {
             this.isShowMessage = false;
         },
 
-        closeWifiList: function () {
+        closeWifiList: function() {
             this.isShowList = !this.isShowList;
         },
 
-        closeWifiConnect: function () {
+        closeWifiConnect: function() {
             this.isConnectingWifi = false;
         }
     }
