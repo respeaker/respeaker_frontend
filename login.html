@@ -32,7 +32,7 @@
         <!-- fill in wifi -->
         <div v-if="!isNormalList">
             <div class="row">
-                <input type="text" placeholder="SSID" value="root" readOnly v-model="nowChooseItem.ssid">
+                <input type="text" placeholder="SSID" value="root" readOnly v-model="currentChooseItem.ssid">
             </div>
             <div class="row">
                 <!-- <input type="password" placeholder="Password" v-model="ssid_psw" v-on:focus="clearText"> -->
@@ -66,7 +66,14 @@
                 </div>
             </div>
         </div>
-        <!-- 弹出层 -->
+        <!-- popup -->
+        <div class="layer tc" v-if="isShowMessage">
+            <div class="content center">
+                <img src="img/close.png" class="btn-close-list" @click.prevent="closeMessage"></img>
+                <img alt="" class="ico center">
+                <p class="text"> {{ message }} </p>
+            </div>
+        </div>
         <div class="layer tc" v-if="isConnectingWifiSuccess">
             <div class="content center">
                 <img src="img/success.png" alt="" class="ico center">
@@ -79,38 +86,11 @@
             <div class="content center">
                 <img src="img/close.png" class="btn-close-list" @click.prevent="closeWifiConnect"></img>
                 <img src="img/loading.gif" alt="" class="ico center loading-gif">
-                <p>Connecting wifi</p>
+                <p>Connecting Wi-Fi</p>
             </div>
         </div>
-        <div class="layer tc" v-if="isOpenUpdate">
-            <div class="content center update-box">
-                <div v-if="!isDownLoadingFirmware && !isDownLoadingFirmwareDone">
-                    <p class="text">A new firmware is available. Update now?</p>
-                    <div>
-                        <a href="#" class="btn btn-rp" @click.prevent="updateFirmware">UPDATE</a>
-                        <a href="#" class="btn btn-cancle" @click.prevent="skipFirmware">SKIP</a>
-                    </div>
-                </div>
-                <!-- downloading -->
-                <div v-if="isDownLoadingFirmware">
-                    <div class="text">Downloading {{ downloadProgress }}</div>
-                </div>
-                <!-- final update -->
-                <div v-if="isDownLoadingFirmwareDone">
-                    <div v-if="isMD5Pass">
-                        <p class="text">Download Success</p>
-                        <a href="#" class="btn btn-rp btn-update-now" @click.prevent="updateNow">UPDATE NOW</a>
-                    </div>
-                    <div else>
-                        <p class="text">Download error</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/app.js"></script>
-    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/respeaker.io/firmware/version.js"></script>
 </body>
 </html>
