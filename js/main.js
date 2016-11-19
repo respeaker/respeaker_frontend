@@ -112,7 +112,11 @@ respeaker.home = new Vue({
                         self.downloadMessage = 'Downloading ' + data.result.results[0].progress + '%';
                         console.log('progress:' + self.downloadMessage)
                     } else if (data.result.results[0].status == 'ok') {
-                        self.downloadMessage = 'Downloaded ' + data.result.results[0].progress + '%';
+                        var progress = '0';
+                        if (data.result.results[0].progress) {
+                            progress = data.result.results[0].progress;
+                        }
+                        self.downloadMessage = 'Downloading ' + data.result.results[0].progress + '%';
                         clearInterval(self.interval);
                         self.isOpenUpdate = true;
                         self.isDownloadProgress = false;
@@ -123,8 +127,9 @@ respeaker.home = new Vue({
                         self.isRetryDownload = true;
                     }
                 } else {
-                    clearInterval(self.interval);
-                    self.downloadMessage = 'Unkown';
+                    // ignore
+                    //clearInterval(self.interval);
+                    //self.downloadMessage = 'Unkown';
                 }
 
             } else if (data.id == 16) {
