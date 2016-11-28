@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Respeaker login</title>
-    <link rel="stylesheet" href="css/seeed_public.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/vue.min.js"></script>
-    <script src="js/sha.js"></script>
+    <link rel="stylesheet" href="../css/seeed_public.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/vue.min.js"></script>
+    <script src="../js/sha.js"></script>
 </head>
 
 <body>
     <div class="rp-login-wrap f14" id="rp-login">
         <div class="rp-logo">
             Respeaker - SeeedStudio
-            <img src="img/rp_logo_h.png" alt="" class="center">
+            <img src="../img/rp_logo_h.png" alt="" class="center">
         </div>
         <!-- choose wifi list -->
         <div v-if="isNormalList">
@@ -34,13 +34,13 @@
 
         <a href="" class="seeed-logo">
             SeeedStudio
-            <img src="img/logo_horizontal.png" alt="" class="center">
+            <img src="../img/logo_horizontal.png" alt="" class="center">
         </a>
 
         <!-- wifi list -->
         <div class="layer j-rp-list" v-show="isShowList">
             <div class="content center rp-list">
-                <img src="img/close.png" class="btn-close-list" @click.prevent="closeWifiList"></img>
+                <img src="../img/close.png" class="btn-close-list" @click.prevent="closeWifiList"></img>
                 <ul class="f16 list">
                     <template v-for="item in ssidList">
                         <li v-on:click="chooseSSID(item)" v-show="item.ssid != ''">
@@ -50,7 +50,7 @@
                     </template>
                 </ul>
                 <div class="wifi-searching" v-if="!isSearchWifiDone">
-                    <img src="img/loading.gif" alt="search wifi">
+                    <img src="../img/loading.gif" alt="search wifi">
                     <div>Scanning wifi</div>
                 </div>
             </div>
@@ -58,14 +58,14 @@
         <!-- popup -->
         <div class="layer tc" v-if="isShowMessage">
             <div class="content center">
-                <img src="img/close.png" class="btn-close-list" @click.prevent="closeMessage"></img>
+                <img src="../img/close.png" class="btn-close-list" @click.prevent="closeMessage"></img>
                 <img alt="" class="ico center">
                 <p class="text"> {{ message }} </p>
             </div>
         </div>
         <div class="layer tc" v-if="isConnectingWifiSuccess">
             <div class="content center">
-                <img src="img/success.png" alt="" class="ico center">
+                <img src="../img/success.png" alt="" class="ico center">
                 <p>Respeaker is now ready.</p>
                 <p>Have Fun!</p>
             </div>
@@ -73,14 +73,14 @@
         <div class="layer tc" v-if="isConnectingWifi">
             <!-- <div class="layer tc"> -->
             <div class="content center">
-                <img src="img/close.png" class="btn-close-list" @click.prevent="closeWifiConnect"></img>
-                <img src="img/loading.gif" alt="" class="ico center loading-gif">
+                <img src="../img/close.png" class="btn-close-list" @click.prevent="closeWifiConnect"></img>
+                <img src="../img/loading.gif" alt="" class="ico center loading-gif">
                 <p>Connecting Wi-Fi</p>
             </div>
         </div>
     </div>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 
-</html>
+
