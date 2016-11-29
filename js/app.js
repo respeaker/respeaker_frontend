@@ -84,7 +84,7 @@ respeaker.login = new Vue({
                         self.ws.send('{"jsonrpc": "2.0","id": 20,"method": "call","params": ["' + self.token + '","/juci/rewifi","clear",{"flag": 0}]}');
 
                         setTimeout(function() {
-                            window.location.href = "/start.html";
+                            window.location.href = "/start/";
                         }, 2000);
                     } else if (data.result.result == 'failed') {
                         self.isConnectingWifi = false;
