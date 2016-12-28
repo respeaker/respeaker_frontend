@@ -1,0 +1,17 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-dnsmasq-dhcp/src/pages//dhcp-settings.html 
+msgid "dhcp-settings-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-dnsmasq-dhcp/src/pages//dhcp-status.html 
+msgid "dhcp-status-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-dnsmasq-dhcp/src/pages//dhcp-settings.html 
+msgid "menu-dhcp-settings-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-dnsmasq-dhcp/src/pages//dhcp-status.html 
+msgid "menu-dhcp-status-title"
+msgstr ""
+

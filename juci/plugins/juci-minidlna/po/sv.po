@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.js
+msgid "Add folder to share"
+msgstr "Lägg till mapp som du vill dela"
+
+msgid "Loading.."
+msgstr "Laddar..."
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+msgid "All types"
+msgstr "Alla typer"
+
+msgid "Video only"
+msgstr "Endast videofilmer"
+
+msgid "Audio only"
+msgstr "Endast ljudfiler"
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+msgid "Pictures only"
+msgstr "Endast bilder"
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.html
+msgid "Media type"
+msgstr "Media typer"
+
+msgid "Select folder"
+msgstr "Välj mapp"
+
+msgid "Enable"
+msgstr "Aktivera"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Network"
+msgstr "Nätverk"
+
+msgid "Friendly Name"
+msgstr "Friendly Namn"
+
+msgid "Root Container"
+msgstr "Root-behållare"
+
+msgid "Media Directories"
+msgstr "Mediamappar"
+
+msgid "Album-Art Names"
+msgstr "Album-Art Namn"
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.html
+msgid "write list of album-art names"
+msgstr "Skriv in lista av album-art filnamn"
+
+msgid "MiniDLNA Settings"
+msgstr "MiniDLNA inställnignar"
+
+msgid "minidlna.settings.info"
+msgstr "Inställningar för MiniDLNA"
+
+msgid "internet-services-minidlna-title"
+msgstr "MiniDLNA"
+
+msgid "menu-internet-services-minidlna-title"
+msgstr "MiniDLNA"
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# share/menu.d/status.json
+
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-rule-edit.js
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-zone-edit.js
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-rule-edit.js
+
+# internet
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-wan-service-edit.html
+
+# internet
+
+# internet
+
+# internet
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/pages/internet-firewall-port-mapping.html
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/pages/internet-firewall-services.html
+
+# internet
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-client-mode.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-link-to-interfaces.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-adsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-vdsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# phone
+
+# phone
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# menu.d/juci-mod-voice.json
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/widgets/juci-config.js
+
+# /home/martin/juci/juci//src/widgets/juci-select.js
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/default.html
+
+# status
+
+# settings
+
+# internet
+
+# wifi
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/wifi.json
+

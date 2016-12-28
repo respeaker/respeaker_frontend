@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/sysupgrade.js
+msgid ""
+"A new system software upgrade is available. Do you want to visit upgrade "
+"page and upgrade now?"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.js
+msgid "Verifying firmware image"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.js
+msgid ""
+"Upgrade process has started. The web gui will not be available until the "
+"upgrade process has completed!"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.js
+msgid "No upgrade has been found!"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.js
+msgid ".w (JFFS Image)"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.js
+msgid ".y (UBIFS Image)"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.js
+msgid "fs_image (RAW Rootfs Image)"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/widgets/upgrade.popup.js
+msgid "You need to select a network!"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/widgets/upgrade.popup.html
+msgid "Pick image to upgrade"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/widgets/upgrade.popup.html
+msgid "New software is available"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Firmware Upgrade"
+msgstr ""
+
+msgid "settings.upgrade.info"
+msgstr ""
+"Here you can upgrade the software on your router."
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Current Firmware Version"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Online Update"
+msgstr ""
+
+msgid "settings.upgrade.online.info"
+msgstr ""
+"Click \"Check for Update\" to start an online software upgrade. If a newer "
+"firmware is found, it will be automatically installed on your router "
+"(Internet connection required)."
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Check for Upgrade"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Install Upgrade"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "USB Firmware Upgrade"
+msgstr ""
+
+msgid "settings.upgrade.usb.info"
+msgstr ""
+"It is possible to update the firmware from a file saved on a USB storage "
+"attached to the USB port of your router. Click \"Install Update\" to start "
+"the automatic firmware upgrade. Please note that there should be only one "
+"firmware file on the storage and that one shall be located under the main "
+"directory (no search under subfolders)."
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Manual Firmware Upgrade"
+msgstr ""
+
+msgid "settings.upgrade.manual.info"
+msgstr "It is possible to update the firmware from a saved update file."
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Pick firmware file to upload"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Start upgrade"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Upgrade"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Online upgrade is disabled"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "USB upgrade is disabled"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid ""
+"If you answer yes then your confiruation will be saved before the upgrade "
+"and restored after the upgrade has completed. If you choose 'no' then all "
+"your current confiration will be reset to defaults."
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade.html
+msgid "Close"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.html
+msgid "Upgrade Options"
+msgstr ""
+
+msgid "settings.upgrade.options.info"
+msgstr "Configure system upgrade options. "
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.html
+msgid "URL for file with latest image filename"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.html
+msgid "URL"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.html
+msgid "Upgrade URL base path"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.html
+msgid "HTTP Directory"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.html
+msgid "Firmware image extension"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.html
+msgid "Online Upgrade"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-sysupgrade/src/pages/settings-upgrade-options.html
+msgid "USB Upgrade"
+msgstr ""
+
+msgid "settings-upgrade-options-title"
+msgstr "System Upgrade Options"
+
+msgid "settings-upgrade-title"
+msgstr "Firmware Upgrade"
+
+msgid "menu-settings-upgrade-options-title"
+msgstr "Options"
+
+msgid "menu-settings-upgrade-title"
+msgstr "Firmware Upgrade"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+

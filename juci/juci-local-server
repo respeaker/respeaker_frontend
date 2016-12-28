@@ -1,0 +1,110 @@
+#!/usr/bin/env node
+
+var express = require('express');
+var app = express();
+var JSON = require("JSON"); 
+var fs = require("fs"); 
+var request = require("request"); 
+var http = require("http"); 
+var bodyParser = require('body-parser')
+var config = { port: 3000 };
+var exec = require("child_process").exec; 
+var $ = require("jquery-deferred"); 
+var spawn = require('child_process').spawn;
+var expressWs = require("express-ws")(app); 
+var WebSocket = require("ws"); 
+
+
+//check if file exists and is a file
+if (fs.existsSync("juci-local-server.config")){
+	try { 
+		config = JSON.parse(fs.readFileSync("juci-local-server.config"));
+	} catch(e){
+	
+	}
+}
+
+for(var i = 0; i < process.argv.length; i++){
+	switch(process.argv[i]){
+		//case "--host": config.ubus_uri = "ws://"+process.argv[++i]+"/websocket/"; break; 
+		case "--host": config.ubus_uri = "ws://"+process.argv[++i]+"/websocket/"; break; 
+		case "--port": config.port = parseInt(process.argv[++i]); break; 
+		case "--url": config.ubus_uri = process.argv[++i]; break; 
+	}; 
+} 
+
+if(!config.ubus_uri || !config.port){
+	console.log("juci-local-server: ");
+	console.log("	--host <host>"); 
+	console.log("		specify host to connect to"); 
+	console.log("	--port <port>"); 
+	console.log("		specify port to use for local server"); 
+	console.log("	--url <websocket url>"); 
+	console.log("		specify websocket url directly (ws://192.168.1.1/websocket/)"); 
+	process.exit(); 
+}
+
+app.use( bodyParser.json() );       // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+  extended: true
+})); 
+
+app.use(express.static(__dirname + '/bin/www'));
+
+spawn('make', ["debug", "DEFAULT_THEME=y"], { customFds: [0,1,2] })
+.on("exit", function(code){
+	console.log("Recompiled gui, code: "+code); 
+}); 
+
+// RPC end point
+app.ws('/websocket/', function(ws, req) {
+
+	var socket; 
+	var connect; 
+	function reconnect(){
+		console.log("Connecting to websocket: "+config.ubus_uri); 
+		socket = new WebSocket(config.ubus_uri);  
+		connect = $.Deferred(); 
+		socket.onopen = function(){     
+			console.log("Websocket RPC connected!"); 
+			socket.onmessage = function(e){ 
+				process.stdout.write("JSON REQ: "+e.data+"\n"); 
+				try {
+					ws.send(e.data);    
+				} catch(e){
+					console.error("Could not send to client socket: "+e); 
+				}
+			} 
+			connect.resolve();  
+		}                               
+		socket.onerror = function(e){    
+			console.log("Websocket error: "+e);         
+			connect.reject(); 
+			reconnect(); 
+		}
+		socket.onclose = function(){    
+			console.log("websocket closed!"); 
+		}
+	}
+
+	reconnect(); 
+
+	ws.on("message",function(msg){
+		connect.done(function(){
+			process.stdout.write("JSON REQ: "+msg); 
+			try {
+				socket.send(msg); 
+			} catch(e) {
+				console.error("Could not send to server socket: "+e); 
+				reconnect(); 
+			}
+		}); 
+	}); 
+});
+
+var server = app.listen(config.port, function () {
+	var host = server.address().address;
+	var port = server.address().port;
+	console.log('Local server listening on http://%s:%s', host, port);
+});
+

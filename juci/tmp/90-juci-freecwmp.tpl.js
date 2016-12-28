@@ -1,0 +1,1 @@
+JUCI.template("pages/freecwmp-config.html", "<juci-layout-with-sidebar>\n<div ng-controller=\"FreecwmpConfigPage\">\n<juci-config-section>\n\n</juci-config-section>\n</div>\n</juci-layout-with-sidebar>\n");

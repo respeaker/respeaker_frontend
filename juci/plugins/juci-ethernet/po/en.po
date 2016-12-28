@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# /home/martin/juci/plugins/juci-ethernet/src/pages/internet-ethernet.html
+msgid "Layer-2 Ethernet Devices"
+msgstr ""
+
+msgid "internet.ethernet.info"
+msgstr ""
+"Ethernet devices are the low level devices that you can use to access a "
+"network. These are MAC level devices and so do not have IP addresses. You "
+"should configure IP addresses in the connections section. "
+
+# /home/martin/juci/plugins/juci-ethernet/src/pages/internet-ethernet.html
+msgid "Name"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ethernet/src/pages/internet-ethernet.html
+msgid "Adapter"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ethernet/src/pages/internet-ethernet.html
+msgid "MAC"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ethernet/src/pages/internet-ethernet.html
+msgid "MTU"
+msgstr ""
+
+msgid "Status"
+msgstr "Status"
+
+msgid "internet-ethernet-title"
+msgstr "Ethernet Devices"
+
+msgid "menu-internet-ethernet-title"
+msgstr "Devices"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+

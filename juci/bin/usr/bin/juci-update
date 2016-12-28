@@ -1,0 +1,96 @@
+#!/bin/sh
+
+set -e 
+
+WWW="$1"
+MODE="$2"
+MODE=${MODE:="RELEASE"}
+
+
+#if [ "$MODE" = "RELEASE" ]; then
+#	JS_WILDCARD="*.js.gz"
+#	CSS_WILDCARD="*.css.gz"
+#else
+#fi
+
+JS_WILDCARD="*.js"
+CSS_WILDCARD="*.css"
+
+echo "Using mode: $MODE..."
+
+if [ -n "$1" ]; then
+	WWW="$1"
+elif [ -d /www ]; then
+	WWW="/www"
+elif [ -d /var/www ]; then
+	WWW="/var/www"
+fi
+
+#rm -f $WWW/__all.js
+#for file in $WWW/js/*.js; do
+#	cat $file >> $WWW/__all.js
+#done
+
+#rm -f $WWW/__all.css
+#for file in $WWW/css/*.css; do
+#	cat $file >> $WWW/__all.css
+#done
+
+[ "$MODE" = "RELEASE" ] && {
+	for file in `find ${WWW} -type f | grep -v "\.gz" | grep -v cgi-bin`; do
+		echo "Compressing ${file}..."; 
+		#gzip -f ${file}
+	done
+}
+
+# now update the index file to include any extra files
+INDEX=${WWW}/index.html
+#gunzip -f ${INDEX}.gz
+mkdir -p ${WWW}/js;
+mkdir -p ${WWW}/css;
+
+STYLES_HTML="" #"<link href='__all.css' rel='stylesheet' type='text/css' />"
+SCRIPTS_HTML="" #"<script src='__all.js'></script>"
+for file in `find ${WWW}/css -name "$CSS_WILDCARD" | sort`; do
+	style=${file#${WWW}/}
+	style=${style%.gz}
+	echo "Adding $style to index"
+	STYLES_HTML="${STYLES_HTML}<link href='${style}' rel='stylesheet' type='text/css' />"
+done
+
+#sed "/<!-- STYLES_BEGIN -->/,/<!-- STYLES_END -->/c<!-- STYLES_BEGIN -->${STYLES_HTML}<!-- STYLES_END -->" ${INDEX} 
+#cat ${INDEX} | tr -d '\n' | sed "s/<!-- STYLES_BEGIN -->.*<!-- STYLES_END -->/<!-- STYLES_BEGIN -->${STYLES_HTML}<!-- STYLES_END -->/" 
+#cat /www/index.html | tr -d '\n' | sed "s/<!-- STYLES_BEGIN -->.*<!-- STYLES_END -->/<!-- STYLES_BEGIN -->test<!-- STYLES_END -->/g" 
+
+for file in `find ${WWW}/js -name "$JS_WILDCARD" | sort`; do
+	echo "Adding $file to index"
+	JSFILE=${file#${WWW}/}
+	JSFILE=${JSFILE%.gz}
+	SCRIPTS_HTML="${SCRIPTS_HTML}<script src=\"${JSFILE}\"></script>"
+done
+#cat ${INDEX} | tr -d '\n' | sed "s/<!-- SCRIPTS_BEGIN -->.*<!-- SCRIPTS_END -->/<!-- SCRIPTS_BEGIN -->${SCRIPTS_HTML}<!-- SCRIPTS_END -->/" 
+
+# workaround because stupid f**ing sed is not working on busybox #@"#"!"¤¤"#!"¤!½!!!
+echo "<!doctype html>
+<html lang='en' >
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+	<title>JUCI</title><!--ng-bind='title'-->
+	<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
+	${STYLES_HTML}
+</head>
+<body role='document'>
+	<div ng-hide='juci_loaded' class='juci-loadsplash'>
+		<div style='position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 1%; height: 1%;'>
+			<i class='fa fa-2x fa-spin fa-spinner text-success'></i>
+		</div>
+	</div>
+	<div ui-view='content' style='min-height: 1000px;'></div>
+	${SCRIPTS_HTML}
+</body>
+</html>" > ${INDEX}
+
+#if [ "$MODE" = "RELEASE" ]; then
+#	gzip -f ${INDEX}
+#fi

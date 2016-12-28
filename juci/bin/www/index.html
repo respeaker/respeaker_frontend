@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang='en' >
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+	<title>JUCI</title><!--ng-bind='title'-->
+	<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
+	
+</head>
+<body role='document'>
+	<div ng-hide='juci_loaded' class='juci-loadsplash'>
+		<div style='position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 1%; height: 1%;'>
+			<i class='fa fa-2x fa-spin fa-spinner text-success'></i>
+		</div>
+	</div>
+	<div ui-view='content' style='min-height: 1000px;'></div>
+	<script src="js/01-juci.js"></script><script src="js/50-juci-ddns.js"></script><script src="js/50-juci-diagnostics.js"></script><script src="js/50-juci-dnsmasq-dhcp.js"></script><script src="js/50-juci-dropbear.js"></script><script src="js/50-juci-dynamic-translator.js"></script><script src="js/50-juci-ethernet.js"></script><script src="js/50-juci-event.js"></script><script src="js/50-juci-firewall-fw3.js"></script><script src="js/50-juci-freecwmp.js"></script><script src="js/50-juci-icwmp.js"></script><script src="js/50-juci-igmpinfo.js"></script><script src="js/50-juci-macdb.js"></script><script src="js/50-juci-minidlna.js"></script><script src="js/50-juci-minisnmpd.js"></script><script src="js/50-juci-mod-status.js"></script><script src="js/50-juci-mod-system.js"></script><script src="js/50-juci-network-netifd.js"></script><script src="js/50-juci-openwrt-wireless.js"></script><script src="js/50-juci-samba.js"></script><script src="js/50-juci-snmpd.js"></script><script src="js/50-juci-sysupgrade.js"></script><script src="js/50-juci-uhttpd.js"></script><script src="js/50-juci-upnp.js"></script><script src="js/50-juci-usb.js"></script><script src="js/50-juci-utils.js"></script><script src="js/60-juci-simple-gui.js"></script><script src="js/80-juci-theme-openwrt.js"></script>
+</body>
+</html>

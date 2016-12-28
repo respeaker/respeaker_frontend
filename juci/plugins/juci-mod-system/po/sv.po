@@ -1,0 +1,537 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid ""
+"This will reset your configuration to factory defaults. Do you want to "
+"continue?"
+msgstr ""
+"Detta kommer att återställa dina inställningar till tillverkarens "
+"konfiguration"
+
+msgid "Passwords do not match!"
+msgstr "Lösenorden stämmer inte överens!"
+
+msgid ""
+"Was unable to set password. Please make sure you have entered correct "
+"current password!"
+msgstr ""
+"Kunde inte ställa in lösenordet. Kontrollera att nuvarande lösenord är rätt!"
+
+msgid "Hostname"
+msgstr "Datornamn"
+
+msgid "Model"
+msgstr "Modell"
+
+msgid "N/A"
+msgstr "N/A"
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/status-system.js
+msgid "Release"
+msgstr "Release Version"
+
+msgid "Firmware Version"
+msgstr "Firmware version"
+
+msgid "Kernel Version"
+msgstr "Kärnans version"
+
+msgid "Target"
+msgstr "Mål"
+
+msgid "Local Time"
+msgstr "Lokaltid"
+
+msgid "Uptime"
+msgstr "Upptid"
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/status-system.js
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Load Average"
+msgstr "Genomsnittsbelastning"
+
+msgid "Usage"
+msgstr "Användning"
+
+msgid "Shared"
+msgstr "Delad"
+
+msgid "Buffered"
+msgstr "Buffrad"
+
+msgid "Swap"
+msgstr "Swap"
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/internet-services-ntp.html
+msgid "List of NTP servers"
+msgstr "Listan med NTP servrar"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "NTP Settings"
+msgstr "NTP Inställningar"
+
+msgid "Configuration"
+msgstr "Inställningar"
+
+msgid "settings.config.info"
+msgstr ""
+"Spara dina inställningar, återställa tidigare sparade inställningar och "
+"återställ EasyBox till fabrikstillstånd.Din EasyBox kan spara din "
+"konfiguration till en dator. Vi rekommenderar att alltid spara dina senaste "
+"ändrade inställningar till en dator."
+
+msgid "Save settings to computer with password protection"
+msgstr "Spara konfigurationen till fil"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Restore settings from a configuration saved on a computer"
+msgstr "Återställ konfigurationsinställnignar från fil på din dator"
+
+msgid "Load"
+msgstr "Ladda upp"
+
+msgid "Factory Settings"
+msgstr "Fabriksinställningar"
+
+msgid "Reset restores the factory default settings of your gateway"
+msgstr "Reset återställer fabriksinställningarna på din gateway"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Save Configuration to Computer"
+msgstr "Ladda ner inställningar"
+
+msgid "Comments"
+msgstr "Kommentarer"
+
+msgid "New Password"
+msgstr "Nytt lösenord"
+
+msgid "Re-type password"
+msgstr "Skriv lösenord igen"
+
+msgid "Pick configuration backup to upload"
+msgstr "Välj konfigurationsbackup för uppladdning"
+
+msgid "Backup file password"
+msgstr "Lösenord för backupfil"
+
+msgid "Password (if encrypted)"
+msgstr "Lösenord (om du vill kryptera)"
+
+msgid "Start upgrade"
+msgstr "Påbörja uppgradering"
+
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+msgid "Please add a comment describing this configuration"
+msgstr "Kommentar som beskriver konfigurationen"
+
+msgid "Energy Settings"
+msgstr "Energi-inställningar"
+
+msgid "settings.energy.info"
+msgstr "Minska energiförbrukningen genom att stänga av oanvända funktioner."
+
+msgid "USB Port"
+msgstr "USB Port"
+
+msgid "Status-LED"
+msgstr "Status-LED"
+
+msgid "Power-LED"
+msgstr "Power-LED"
+
+msgid "Power-LED Brightness"
+msgstr "Power-LED Ljusstyrka"
+
+msgid "Missing uci config boardpanel."
+msgstr "Saknar uci config-panel"
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/settings-management.html
+msgid "Management"
+msgstr "Management"
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/settings-management.html
+msgid "system.management.info"
+msgstr "Här kan du öppna tillgång till olika tjänster från WAN sidan"
+
+msgid "Gateway Password"
+msgstr "Gateway lösenord"
+
+msgid "settings.password.info"
+msgstr ""
+"Ställ en ny Easybox lösenord för att begränsa hanteringsåtkomst till routern."
+
+msgid "Your account"
+msgstr "Ditt konto"
+
+msgid "Change Password"
+msgstr "Ändra lösenord"
+
+msgid "Services"
+msgstr "Tjänster"
+
+msgid "Priority"
+msgstr "Prioritet"
+
+msgid "Service"
+msgstr "Tjänst"
+
+msgid "Enable"
+msgstr "Aktivera"
+
+msgid "Action"
+msgstr ""
+
+msgid "settings.system.general"
+msgstr "Systeminställningar"
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/settings-system.html
+msgid "Set to Browser Time"
+msgstr "Sätt till webbläsarens tid"
+
+msgid "Timezone"
+msgstr "Tidszon"
+
+msgid "General System Settings"
+msgstr "Generella Inställningar"
+
+msgid "Loading"
+msgstr "Laddar..."
+
+msgid "System Status"
+msgstr "Systemstatus"
+
+msgid "Memory"
+msgstr "Minne"
+
+msgid "Storage"
+msgstr "Utrymme"
+
+msgid "status.system.processes.info"
+msgstr "Här kan du se processer som körs"
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/status-system-processes.html
+msgid "Running Processes"
+msgstr "Processer"
+
+msgid "settings-password-title"
+msgstr "Lösenord"
+
+msgid "settings-configuration-title"
+msgstr "Spara Inställningar"
+
+msgid "settings-system-title"
+msgstr "Systeminställningar"
+
+msgid "status-system-processes-title"
+msgstr "Processer"
+
+msgid "internet-services-ntp-title"
+msgstr "NTP"
+
+msgid "settings-services-title"
+msgstr "Tjänster"
+
+# share/menu.d/status.json
+msgid "status-system-title"
+msgstr "Systemstatus"
+
+msgid "system-title"
+msgstr "System"
+
+msgid "settings-uci-title"
+msgstr "UCI"
+
+msgid "settings-management-title"
+msgstr "Management"
+
+msgid "settings-energy-title"
+msgstr "Energispar"
+
+msgid "menu-settings-password-title"
+msgstr "Lösenord"
+
+msgid "menu-settings-configuration-title"
+msgstr "Backup"
+
+msgid "menu-settings-system-title"
+msgstr "Systeminställningar"
+
+msgid "menu-status-system-processes-title"
+msgstr "Processer"
+
+msgid "menu-internet-services-ntp-title"
+msgstr "NTP"
+
+msgid "menu-settings-services-title"
+msgstr "Tjänster"
+
+msgid "menu-status-system-title"
+msgstr "Systemstatus"
+
+msgid "menu-system-title"
+msgstr "System"
+
+msgid "menu-settings-uci-title"
+msgstr "UCI"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "menu-settings-management-title"
+msgstr "Management"
+
+msgid "menu-settings-energy-title"
+msgstr "Energispar"
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.js
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.html
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-rule-edit.js
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-zone-edit.js
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-rule-edit.js
+
+# internet
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-wan-service-edit.html
+
+# internet
+
+# internet
+
+# internet
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/pages/internet-firewall-port-mapping.html
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/pages/internet-firewall-services.html
+
+# internet
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-client-mode.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-link-to-interfaces.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-adsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-vdsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# phone
+
+# phone
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# menu.d/juci-mod-voice.json
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/widgets/juci-config.js
+
+# /home/martin/juci/juci//src/widgets/juci-select.js
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/default.html
+
+# status
+
+# settings
+
+# internet
+
+# wifi
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/wifi.json
+

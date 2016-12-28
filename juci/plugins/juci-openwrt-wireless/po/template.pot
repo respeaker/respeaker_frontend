@@ -1,0 +1,81 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-client-mode.html 
+msgid "wireless-client-mode-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-clients.html 
+msgid "wireless-clients-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-devices.html 
+msgid "wireless-devices-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-filtering.html 
+msgid "wireless-filtering-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-general.html 
+msgid "wireless-general-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-interfaces.html 
+msgid "wireless-interfaces-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-scan.html 
+msgid "wireless-scan-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-status-simple.html 
+msgid "wireless-status-simple-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-status.html 
+msgid "wireless-status-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless.html 
+msgid "wireless-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-client-mode.html 
+msgid "menu-wireless-client-mode-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-clients.html 
+msgid "menu-wireless-clients-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-devices.html 
+msgid "menu-wireless-devices-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-filtering.html 
+msgid "menu-wireless-filtering-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-general.html 
+msgid "menu-wireless-general-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-interfaces.html 
+msgid "menu-wireless-interfaces-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-scan.html 
+msgid "menu-wireless-scan-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-status-simple.html 
+msgid "menu-wireless-status-simple-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless-status.html 
+msgid "menu-wireless-status-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-openwrt-wireless/src/pages//wireless.html 
+msgid "menu-wireless-title"
+msgstr ""
+

@@ -1,0 +1,598 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Please select a rule to delete!"
+msgstr "Välj regel du vill ta bort"
+
+msgid "Are you sure you want to delete this rule?"
+msgstr "Är du säker på att du vill ta bort denna regel? "
+
+msgid "Please select a zone to delete!"
+msgstr "Välj zon som du vill ta bort"
+
+msgid "Are you sure you want to delete this zone?"
+msgstr "Är du säker på att du vill ta bort denna zon? "
+
+msgid "Parental Rule"
+msgstr "Föräldrakontroll"
+
+msgid "ACCEPT"
+msgstr "TA EMOT"
+
+msgid "REJECT"
+msgstr "AVVISA"
+
+msgid "FORWARD"
+msgstr "SKICKA VIDARE"
+
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-rule-edit.js
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-zone-edit.js
+msgid "DROP"
+msgstr "DROP"
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-rule-edit.js
+msgid "Unspecified"
+msgstr "Ospecifierad"
+
+msgid "Any"
+msgstr "Vilken som helst"
+
+msgid "Please select a connection in the list!"
+msgstr "Välj en uppkoppling från listan!"
+
+msgid "Are you sure you want to remove this network from this zone?"
+msgstr "Är du säker på att du vill ta bort denna nätverkszon? "
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/uci.firewall.rule.edit.js
+msgid "UDP"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/uci.firewall.rule.edit.js
+msgid "TCP"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/uci.firewall.rule.edit.js
+msgid "TCP + UDP"
+msgstr ""
+
+msgid "MAC Address"
+msgstr "MAC-adress"
+
+msgid "Select Existing Host"
+msgstr "Välj befintlig enhet"
+
+msgid "Invalid MAC address"
+msgstr "Ogiltigt MAC adress"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Source zone"
+msgstr "Käll-zon"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "IP Address"
+msgstr "IP-adress"
+
+msgid "MAC"
+msgstr "MAC"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Destination zone"
+msgstr "Destinations-zon"
+
+msgid "Family"
+msgstr "Familj"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+# internet
+msgid "Firewall Action"
+msgstr "Åtgärd"
+
+msgid "Source"
+msgstr "Källa"
+
+msgid "Destination"
+msgstr "Destination"
+
+msgid "URL"
+msgstr "URL"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable WAN forwarding for this service"
+msgstr "Slå på WAN forwarding för denna tjänst"
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-wan-service-edit.html
+msgid "Configure firewall rule for this service"
+msgstr "Konfigurera brandväggsregel för denna tjänst"
+
+msgid "Default Policy"
+msgstr "Default Policy"
+
+msgid "Zone members:"
+msgstr "Zonnummer"
+
+msgid "Input"
+msgstr "In"
+
+msgid "Output"
+msgstr "Ut"
+
+msgid "Forward"
+msgstr "Skicka vidare"
+
+msgid "Rule Name"
+msgstr "Namn"
+
+msgid "Select Zone"
+msgstr "Välj zon"
+
+msgid "Destination Zone"
+msgstr "Destinations-zon"
+
+msgid "Source IP Address"
+msgstr ""
+
+msgid "Select connected device"
+msgstr "Välj uppkopplad enhet"
+
+msgid "Source Zone"
+msgstr "Käll-zon"
+
+msgid "Dst. Device"
+msgstr "Destinations-enhet"
+
+msgid "Dst. IP Address"
+msgstr "Dest. IP Adress"
+
+msgid "Public port"
+msgstr "Publik port"
+
+msgid "Public port range"
+msgstr "Publik portintervall"
+
+msgid "Private port"
+msgstr "Privat port"
+
+msgid "Private port range"
+msgstr "Privat port-spann"
+
+msgid "Select protocol"
+msgstr "Välj protokol"
+
+msgid "Device"
+msgstr "Enhet"
+
+msgid "Local IP Address"
+msgstr "Lokal IP-adress"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "DMZ / Exposed Host"
+msgstr "DMZ"
+
+msgid "internet.exposed_host.info"
+msgstr "DMZ inställnignar"
+
+msgid "Enable"
+msgstr "Aktivera"
+
+msgid "WAN IP Address"
+msgstr "WAN IP-adress"
+
+msgid "Host IPv4 Address"
+msgstr "Klientens IPv4-adress"
+
+msgid "Host IPv6 Address"
+msgstr "Klientens IPv4-adress"
+
+msgid "IPv6 Address"
+msgstr "IPv6-adress"
+
+msgid "Pick Existing Host"
+msgstr "Välj befintlig klient"
+
+msgid ""
+"Choose the local IP address that should be exposed to Internet. Additionally "
+"you should configure this IP address as static DHCP address for your device "
+"(see Settings/Network)."
+msgstr ""
+"Välj vilken lokal IP-adress som ska exponeras mot Internet. Du bör "
+"konfigurera den enheten med statisk DHCP-adress (inställningen finns i "
+"Inställningar/Nätverk). "
+
+# internet
+msgid "Firewall Forwarding"
+msgstr "Vidarebefordring"
+
+msgid "internet.firewall.forwarding.info"
+msgstr "Skicka vidare paket"
+
+# internet
+msgid "Enable firewall"
+msgstr "Aktivera brandvägg"
+
+msgid "Enable NAT"
+msgstr "Aktivera NAT"
+
+# internet
+msgid "Firewall settings"
+msgstr "Brandväggsinställningar"
+
+msgid "internet.firewall.info"
+msgstr "Brandväggsinställningar"
+
+msgid "to"
+msgstr "till"
+
+msgid "Add / Edit Port Mapping"
+msgstr "Lägg till / ändra portmappning"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Port Mapping"
+msgstr "Portmappning"
+
+msgid ""
+"Port mapping allows remote computers to connect to a specific device within "
+"your private network."
+msgstr ""
+"Portmappning tillåter andra datorer på internet att koppla upp sig till "
+"datorer på ditt lokala nätverk"
+
+msgid "Direction"
+msgstr "Riktning"
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/pages/internet-firewall-port-mapping.html
+msgid "Dst. IP"
+msgstr "Dest. IP"
+
+msgid "Local port"
+msgstr "Lokal port"
+
+msgid "Public Port"
+msgstr "Publikt port"
+
+msgid "Rules"
+msgstr "Regler"
+
+msgid "internet.firewall.rules.info"
+msgstr "Ställ in regler för brandväggen"
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/pages/internet-firewall-services.html
+msgid "Allow WAN Access To Running Services"
+msgstr "Tillåt WAN access till startade tjänster"
+
+msgid "internet.wan.services.info"
+msgstr "Tjänster och program på WAN sidan"
+
+msgid "Service Filtering"
+msgstr "Tjänstefiltrering"
+
+msgid "internet.firewall.svcfilter.info"
+msgstr "Tjänstefilter"
+
+msgid "URL Filtering"
+msgstr "URL-filtrering"
+
+msgid "internet.firewall.urlfilter.info"
+msgstr "Här kan du ställa in addressfilter"
+
+msgid "Add URL's to URL blocking list"
+msgstr "Lägg till URL till blockeringslistan"
+
+# internet
+msgid "Firewall Zones"
+msgstr "Zoner"
+
+msgid "internet.firewall.zones.info"
+msgstr "Här kan du skapa och ändra inställningar på olika zoner på brandväggen"
+
+msgid "URL Blocking"
+msgstr "URL-blockering"
+
+msgid "Parental Control"
+msgstr "Föräldrakontroll"
+
+msgid "internet.parental.control.info"
+msgstr "Här kan du ställa in routerns barnvänlighet"
+
+msgid "URL Blocking Function"
+msgstr "URL blockering"
+
+msgid "Internet Access Scheduling"
+msgstr "Schemaläggning"
+
+msgid "Weekdays"
+msgstr "Veckodagar"
+
+msgid "Start Time"
+msgstr "Start-tid"
+
+msgid "Stop Time"
+msgstr "Stopp tid"
+
+msgid "MAC Addresses"
+msgstr "MAC-adresser"
+
+msgid "internet-firewall-zones-title"
+msgstr "Zoner"
+
+msgid "internet-firewall-port-mapping-title"
+msgstr "Port-mappning"
+
+msgid "internet-firewall-wordfilter-title"
+msgstr "Ordfilter"
+
+msgid "internet-firewall-svcfilter-title"
+msgstr "Tjänstefilter"
+
+msgid "internet-firewall-title"
+msgstr "Brandvägg"
+
+msgid "internet-firewall-rules-title"
+msgstr "Brandväggsregler"
+
+msgid "internet-firewall-dmz-title"
+msgstr "DMZ"
+
+msgid "internet-parental-control-title"
+msgstr "Föräldrakontroll"
+
+msgid "internet-firewall-forwarding-title"
+msgstr "Paketforwarding"
+
+msgid "internet-firewall-services-title"
+msgstr "Tjänster"
+
+msgid "internet-firewall-urlblock-title"
+msgstr "URL-blockering"
+
+msgid "menu-internet-firewall-zones-title"
+msgstr "Zoner"
+
+msgid "menu-internet-firewall-port-mapping-title"
+msgstr "Port-mappning"
+
+msgid "menu-internet-firewall-wordfilter-title"
+msgstr "Ordfilter"
+
+msgid "menu-internet-firewall-svcfilter-title"
+msgstr "Tjänstefilter"
+
+msgid "menu-internet-firewall-title"
+msgstr "Brandvägg"
+
+msgid "menu-internet-firewall-rules-title"
+msgstr "Brandväggsregler"
+
+msgid "menu-internet-firewall-dmz-title"
+msgstr "DMZ"
+
+msgid "menu-internet-parental-control-title"
+msgstr "Föräldrakontroll"
+
+msgid "menu-internet-firewall-forwarding-title"
+msgstr "Paketforwarding"
+
+msgid "menu-internet-firewall-services-title"
+msgstr "Tjänster"
+
+msgid "menu-internet-firewall-urlblock-title"
+msgstr "URL-blockering"
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-client-mode.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-link-to-interfaces.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-adsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-vdsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# phone
+
+# phone
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# share/menu.d/status.json
+
+# menu.d/juci-mod-voice.json
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/widgets/juci-config.js
+
+# /home/martin/juci/juci//src/widgets/juci-select.js
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/default.html
+
+# status
+
+# settings
+
+# internet
+
+# wifi
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/wifi.json
+

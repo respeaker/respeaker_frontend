@@ -1,0 +1,44 @@
+<div ng-cloak style="background: #f9f9f9;" ng-class="m_head.left_navbar">
+	<ng-transclude></ng-transclude>
+	<!--底部 -->
+	<div class="footer-menu" >
+		<a href="">
+			<div class="icon" > 
+				<img src="/img/Music@2x.png" >
+			</div>
+		</a>
+		<a href="">
+			<div class="icon"> 
+				<img src="/img/folder@2x.png" >
+			</div>
+		</a>
+		<a href="">
+			<div class="icon active"> 
+					<img src="/img/link@2x.png" >
+			</div>
+		</a>
+		<a href="">
+			<div class="icon"> 
+					<img src="/img/layer@2x.png" >
+			</div>
+		</a>
+		<a href="">
+			<div class="icon"> 
+					<img src="/img/settings-1@2x.png" >
+			</div>
+		</a>
+  </div>
+</div>
+<div id="navbar" class="m-navbar" ng-show="m_head.navbar" > 
+		<div class="nav-more" >
+			<ul>
+				<li class="dropdown" ng-repeat="item in tree.children_list track by $index">
+					<a href="#!{{item.href}}" role="button" >{{item.text | translate}} </a>
+				</li>
+				<li class="dropdown" ng-repeat="item in titleList">
+					<a href="#!{{item.href}}" role="button" >{{item.text | translate}} </a>
+				</li>
+			</ul>
+		</div>
+</div>
+

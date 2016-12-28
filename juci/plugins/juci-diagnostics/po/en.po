@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Diagnostic Utility"
+msgstr ""
+
+msgid "status.diagnostics.info"
+msgstr ""
+"This section shows a list of tools which can be used to check the status of "
+"your network connection."
+
+msgid "Automated Diagnostics"
+msgstr "Automated Diagnostics"
+
+msgid "status.diagnostics.auto.info"
+msgstr ""
+"This diagnosis should take up to 2 minutes and cannot be cancelled once it "
+"has been started."
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Diagnose"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Ping Test"
+msgstr ""
+
+msgid "status.diagnostics.ping.info"
+msgstr "Please enter a valid hostname or IP address to execute the Ping test."
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Host to ping"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Ping"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Ping results"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Error"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Tracing Tool"
+msgstr ""
+
+msgid "status.diagnostics.trace.info"
+msgstr ""
+"Please choose the connection type and location where you would like to save "
+"the tracing. The tracing will then begin automatically in a separate popup "
+"window."
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Host to trace"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Trace"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-diagnostics/src/pages/status-diagnostics.html
+msgid "Trace results"
+msgstr ""
+
+msgid "status-diagnostics-title"
+msgstr "Diagnostic Utility"
+
+msgid "menu-status-diagnostics-title"
+msgstr "Diagnostics"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+

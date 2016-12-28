@@ -1,0 +1,17 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-event/src/pages//event-log-config.html 
+msgid "event-log-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-event/src/pages//status-events.html 
+msgid "status-events-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-event/src/pages//event-log-config.html 
+msgid "menu-event-log-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-event/src/pages//status-events.html 
+msgid "menu-status-events-title"
+msgstr ""
+

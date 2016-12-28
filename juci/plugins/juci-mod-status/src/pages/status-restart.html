@@ -1,0 +1,19 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="StatusRestartPageCtrl">
+		<juci-config title="{{'Restart'|translate}}">
+			<juci-config-info>{{ 'status.restart.info' | translate }}</juci-config-info>
+			<div class="alert alert-default"></div>
+			<juci-config-lines>
+				<juci-config-line title="{{'Click here to restart your device'|translate}}">
+					<button class="btn btn-lg btn-default" ng-click="onRestart()">Restart</button>
+				</juci-config-line>
+			</juci-config-lines>
+		</juci-config>
+		<modal title="Are you sure you want to restart?" ng-show="showConfirmation" on-accept="onConfirmRestart()" on-dismiss="onCancelRestart()" accept-label="Reboot" dismiss-label="Cancel">
+			<p translate>Restart takes about 3 minutes. When restart is completed the page will reload automatically. </p>
+		</modal>
+		<modal title="Restarting..." ng-show="showRestartProgress">
+			<p style="text-align: center;">{{message}} ({{progress}}s)<br/><br/><i class="fa fa-spinner fa-spin fa-4x"></i></p>
+		</modal>
+	</div>
+</juci-layout-with-sidebar>

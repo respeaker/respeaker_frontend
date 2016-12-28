@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-usb/src/pages//status-usb.html 
+msgid "status-usb-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-usb/src/pages//status-usb.html 
+msgid "menu-status-usb-title"
+msgstr ""
+

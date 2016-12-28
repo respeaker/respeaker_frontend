@@ -1,0 +1,887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Dongle has been disconnected!"
+msgstr "Dongle har kopplats från"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/network-netifd.js
+msgid ""
+"A new ethernet device has been connected to your router. Do you want to add "
+"it to a network?"
+msgstr ""
+"En ny enhet har identifierats på nätverket. Vill du konfigurera den nu? "
+
+msgid "IP Address must be a valid ipv4 address!"
+msgstr "IP-Adressen måste vara giltig"
+
+msgid "IPv6 Aaddress must be a valid ipv6 address"
+msgstr "Adressen måste vara en giltig IPv6 adress"
+
+msgid "Value must be a valid MAC-48 address"
+msgstr "Värdet måste vara ett giltigt MAC adress"
+
+msgid "value must be a valid MAC-48 address"
+msgstr "värdet måste vara en giltig MAC-adress"
+
+msgid "Please select a connection in the list!"
+msgstr "Välj en uppkoppling från listan!"
+
+msgid "Are you sure you want to delete this connection?"
+msgstr "Är du säker på att du vill ta bort denna uppkoppling? "
+
+msgid "You need to select a device to add!"
+msgstr "Du måste välja en enhet du vill lägga till!"
+
+msgid "You need to specify both name and type!"
+msgstr "Du måste ange både namn och typ!"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "Standard"
+msgstr "Standard"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "AnyWAN"
+msgstr "AnyWAN"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "Bridge"
+msgstr "Brygga"
+
+msgid "Static Address"
+msgstr "Statisk IP-adress"
+
+msgid "DHCP v4"
+msgstr "DHCPv4"
+
+msgid "DHCP v6"
+msgstr "DHCPv6"
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+msgid "PPP"
+msgstr "PPP"
+
+msgid "PPP over Ethernet"
+msgstr "PPP över Ethernet"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "PPP over ATM"
+msgstr "PPP över ATM"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "3G (ppp over GPRS/EvDO/CDMA or UTMS)"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "QMI (USB modem)"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "NCM (USB modem)"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "HNET (self-managing home network)"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "Point-to-Point Tunnel"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "IPv6 tunnel in IPv4"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "Automatic IPv6 Connectivity Client"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "IPv6 rapid deployment"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "Dual-Stack Lite"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "PPP over L2TP"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "Relayd Pseudo Bridge"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "GRE Tunnel over IPv4"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "Ethernet GRE over IPv4"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.js
+msgid "GRE Tunnel over IPv6"
+msgstr ""
+
+msgid "Ethernet GRE over IPv6"
+msgstr "Ethernet GRE över IPv6"
+
+msgid "You need to select a network!"
+msgstr "Du måste välja ett nätverk!"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-dhcpv6-edit.js
+msgid "Try"
+msgstr "Försök"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-dhcpv6-edit.js
+msgid "Force"
+msgstr "Tvinga"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-dhcpv6-edit.js
+msgid "None"
+msgstr "Ingen"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-type-anywan-edit.js
+msgid "network.interface.type.anywan.tab.title"
+msgstr "AnyWAN"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-type-bridge-edit.js
+msgid "network.interface.type.bridge.tab.title"
+msgstr "Brygga"
+
+msgid ""
+"Are you sure you want to remove device '+dev+' from network '+net['.name']+' "
+"and use it in this bridge?"
+msgstr ""
+
+msgid "Please select a device in the list!"
+msgstr "Vänligen välj en enhet från listan!"
+
+msgid "Are you sure you want to delete this device from bridge?"
+msgstr "Är du säker på att du vill ta bort denna enhet från bryggan? "
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-type-none-edit.js
+msgid "network.interface.type.none.tab.title"
+msgstr "Statisk"
+
+msgid "You need to select a host!"
+msgstr "Du måste välja en enhet!"
+
+msgid "Unknown"
+msgstr "Okänd"
+
+msgid "Network"
+msgstr "Nätverk"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Network device"
+msgstr "Nätverksenhet"
+
+msgid "Pick network device"
+msgstr "Välj nätverksenhet"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Displayname"
+msgstr "Visad namn"
+
+msgid "VLAN Tag"
+msgstr "VLAN tagg"
+
+msgid "Device"
+msgstr "Enhet"
+
+msgid "Ports"
+msgstr "Portar"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-client-edit.html
+msgid "Do you want to:"
+msgstr "Vill du:"
+
+msgid "Interface Name"
+msgstr "Interface-namn"
+
+msgid "Interface Type"
+msgstr "Uppkopplingstyp"
+
+msgid "Create New Network Interface"
+msgstr "Skapa en ny nätverksinterface"
+
+msgid "Automatic DNS Configuration"
+msgstr "Automatisk konfigurering"
+
+msgid "Primary DNS"
+msgstr "Primär DNS"
+
+msgid "Primary DNS IP"
+msgstr "Primär DNS adress"
+
+msgid "Secondary DNS"
+msgstr "Sekundär DNS"
+
+msgid "General"
+msgstr "Inställningar"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.html
+msgid "Bring-Up on Boot"
+msgstr "Starta upp vid systemstart"
+
+msgid "Automatic Default Route"
+msgstr "Automatisk Default-rutt"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.html
+msgid "network.interface.type.' + (conn.type.value || 'none') +'.tab.title"
+msgstr ""
+
+msgid "Advanced"
+msgstr "Avancerat"
+
+msgid "Override MAC Address"
+msgstr "Anävnd annan MAC adress"
+
+msgid "MAC Address"
+msgstr "MAC-adress"
+
+msgid "Override MTU"
+msgstr "Använd annat MTU"
+
+msgid "MTU"
+msgstr "MTU"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-edit.html
+msgid "Custom Delegated IPv6 Prefix"
+msgstr "Delegerad IPv6 prefix"
+
+msgid "IPv6 Prefix"
+msgstr "IPv6 Prefix"
+
+msgid "Configuration Method"
+msgstr "Konfigurationsmetod"
+
+msgid "Choose Configuration Option"
+msgstr "Välj konfigurationsväg"
+
+msgid "Method"
+msgstr "Metod"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Pick Network"
+msgstr "Välj nätverk"
+
+msgid "APN"
+msgstr "APN"
+
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-3g-edit.html
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-3g-edit.html
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-ncm-edit.html
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-ncm-edit.html
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-qmi-edit.html
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-qmi-edit.html
+msgid "PIN-code"
+msgstr "PIN-kod"
+
+msgid "Dial Number"
+msgstr "Uppringningsnummer"
+
+msgid "Username"
+msgstr "Användarnamn"
+
+msgid "Password"
+msgstr "Lösenord"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-dhcp-edit.html
+msgid "Enable DHCP Broadcast Flag (required for some ISPs)"
+msgstr "Slå på DHCP Broadcast Flagga (krävs för vissa operatörer)"
+
+msgid "Request IPv6 address"
+msgstr "Fråga efter IPv6 adress"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-dhcpv6-edit.html
+msgid "Request Prefix Length"
+msgstr "Prefix Längd"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-dhcpv6-edit.html
+msgid "Override Link Local ID"
+msgstr "Åsidosätt Lokal Länk-ID"
+
+msgid "IPv6 Address"
+msgstr "IPv6-adress"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-dhcpv6-edit.html
+msgid "Client ID to send when requesting DHCP"
+msgstr "Klient-ID att skicka vid förfrågan om DHCP"
+
+msgid "Client ID"
+msgstr "Klient-ID"
+
+msgid "Mode"
+msgstr "Inställning"
+
+msgid "IPv6 Assign"
+msgstr "IPv6 tilldelning"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-hnet-edit.html
+msgid "Prefix Size"
+msgstr "Prefixlängd"
+
+msgid "IPv4 Assign"
+msgstr "IPv4 tilldelning"
+
+msgid "DNS Name"
+msgstr "DNS Namn"
+
+msgid "Select Modem Device"
+msgstr "Välj modem"
+
+msgid "VCI"
+msgstr "VCI"
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+msgid "PPPoA VCI"
+msgstr "PPPoA VCI"
+
+msgid "VPI"
+msgstr "VPI"
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+msgid "PPPoA VPI"
+msgstr "PPPoA VPI"
+
+msgid "Server IP"
+msgstr "Server IP"
+
+msgid "IP Address"
+msgstr "IP adress"
+
+msgid "IPv4 Address"
+msgstr "IPv4 adress"
+
+msgid "IPv4 Subnet Mask"
+msgstr "IPv4-nätmask"
+
+msgid "IPv4 Default Gateway"
+msgstr "IPv4 gateway"
+
+msgid "Static IPv6 Address"
+msgstr "Statisk IPv6-adress"
+
+msgid "IPv6 Address Mask"
+msgstr "IPv6-adress mask"
+
+msgid "Configure As Default Route"
+msgstr "Konfigurera som default-rutt"
+
+msgid "IPv6 Default Gateway"
+msgstr "IPv6 Gateway"
+
+msgid "Default IPv6 Gateway"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-static-edit.html
+msgid "IPv6 Assigned Prefix Length"
+msgstr "IPv6 tildelad prefixlängd"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-static-edit.html
+msgid "Assign prefix to downstream hosts"
+msgstr "Tilldela prefix till lokala enheter"
+
+msgid "IPv6 Assigned Prefix Hint"
+msgstr "IPv6 prefix hint"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/widgets/network-connection-proto-static-edit.html
+msgid "Prefix hint"
+msgstr "Prefixhint"
+
+msgid "IPv4 Settings"
+msgstr "IPv4 inställningar"
+
+msgid "IPv6 Settings"
+msgstr "IPv6 inställningar"
+
+msgid "Select Base Device"
+msgstr "Välj bas-enhet"
+
+msgid "Device ID"
+msgstr "Enhets-ID"
+
+msgid "Base Device"
+msgstr "Basenhet"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Select Connected Host"
+msgstr "Välj uppkopplad klient"
+
+msgid "Pick a host"
+msgstr "Välj enhet"
+
+msgid "LAN"
+msgstr "LAN"
+
+msgid "WAN"
+msgstr "WAN"
+
+msgid "ONLINE"
+msgstr "ONLINE"
+
+msgid "OFFLINE"
+msgstr "OFFLINE"
+
+msgid "Connections"
+msgstr "Uppkopplingar"
+
+msgid "settings.network.info"
+msgstr "Grundläggande nätverskinställningar"
+
+msgid "Default Route"
+msgstr "Default-rutt"
+
+msgid "settings.network.default.route.info"
+msgstr "Default-väg"
+
+msgid " connection will be used as default outgoing route for packets."
+msgstr "uppkopplingen kommer att användas som huvudrutt för utgående paket"
+
+msgid "Static Routes"
+msgstr "Statisk rutter"
+
+msgid "internet.lan.routes.info"
+msgstr "Inställningar för routing på LAN-sidan"
+
+msgid "Target IP Address"
+msgstr "IP-adress"
+
+msgid "Netmask"
+msgstr "Nätmask"
+
+msgid "Default Gateway"
+msgstr ""
+
+msgid "Interface"
+msgstr "Interface"
+
+msgid "Target"
+msgstr "Mål"
+
+msgid "Gateway"
+msgstr "Gateway"
+
+msgid "Services"
+msgstr "Tjänster"
+
+msgid "internet.services.info"
+msgstr "Tjänster på lokala nätverket."
+
+msgid "Connected Clients"
+msgstr "Uppkopplade klienter"
+
+msgid "Hostname"
+msgstr "Datornamn"
+
+msgid "VLAN Configuration"
+msgstr "VLAN inställningar"
+
+msgid "status.status.info"
+msgstr "Statusinformation om routerns uppkopplingar."
+
+msgid "Line Status"
+msgstr "Linjestatus"
+
+msgid "Active Connections"
+msgstr "Aktiva uppkopplingar"
+
+msgid "Connections for each Device"
+msgstr "Uppkopplingar för varje enhet"
+
+msgid "status.nat.connections.info"
+msgstr "Aktiva NAT-uppkopplingar. "
+
+msgid "NAT Connection Table"
+msgstr "NAT-uppkopplingstabell"
+
+msgid "status.nat.info"
+msgstr "NAT information"
+
+msgid "status.network.routes.info"
+msgstr "Information om rutter"
+
+msgid "Routing Status"
+msgstr "Status"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/pages/status-network-routes.html
+msgid "ARP Table"
+msgstr "ARP tabell"
+
+msgid "IP address"
+msgstr "IP adress"
+
+msgid "MAC address"
+msgstr "MAC-adress"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/pages/status-network-routes.html
+msgid "IPv4 Routing Table"
+msgstr "IPv4 Routing Tabell"
+
+msgid "IPv4 address"
+msgstr "IPv4-adress"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/pages/status-network-routes.html
+msgid "IPv6 Routing Table"
+msgstr "IPv6 Routing Tabell"
+
+msgid "IPv6 address"
+msgstr "IPv6-adress"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/pages/status-network-routes.html
+msgid "Next Hop"
+msgstr "Nästa hopp"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/pages/status-network-routes.html
+msgid "IPv6 Neighbors Table"
+msgstr "IPv6 granntabell"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/pages/status-network-routes.html
+msgid "No IPv6 devices connected"
+msgstr "Inga IPv6 enheter är inkopplade"
+
+msgid "IPv6 status"
+msgstr "IPv6 status"
+
+# /home/martin/juci/plugins/juci-network-netifd/src/pages/status-network-routes.html
+msgid "Router"
+msgstr "Router"
+
+msgid "status-network-routes-title"
+msgstr "Routing"
+
+msgid "internet-services-title"
+msgstr "Tjänster"
+
+msgid "internet-network-title"
+msgstr "Nätverk"
+
+msgid "status-network-nat-title"
+msgstr "NAT"
+
+msgid "netifd-status-clients-title"
+msgstr "Klienter"
+
+# share/menu.d/wifi.json
+msgid "netifd-vlan-config-title"
+msgstr "Switch"
+
+msgid "status-network-title"
+msgstr "Nätverk"
+
+msgid "internet-routes-title"
+msgstr "Routing"
+
+msgid "network-title"
+msgstr "Nätverk"
+
+msgid "menu-status-network-routes-title"
+msgstr "Routing"
+
+msgid "menu-internet-services-title"
+msgstr "Tjänster"
+
+msgid "menu-internet-network-title"
+msgstr "Nätverk"
+
+msgid "menu-status-network-nat-title"
+msgstr "NAT"
+
+msgid "menu-netifd-status-clients-title"
+msgstr "Klienter"
+
+msgid "menu-netifd-vlan-config-title"
+msgstr "Switch"
+
+msgid "menu-status-network-title"
+msgstr "Nätverk"
+
+msgid "menu-internet-routes-title"
+msgstr "Routing"
+
+# /home/martin/juci/juci//src/pages/default.html
+msgid "menu-network-title"
+msgstr "Nätverk"
+
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-netmode/src/widgets/overview-netmode.html
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-netmode/src/widgets/overview-netmode-small.html
+
+# menu.d/juci-mod-voice.json
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/status-system.js
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/status-system.js
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/internet-services-ntp.html
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/settings-management.html
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/settings-management.html
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/settings-system.html
+
+# /home/martin/juci/plugins/juci-mod-system/src/pages/status-system-processes.html
+
+# share/menu.d/status.json
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.js
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.html
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# /home/martin/juci/plugins/juci-inteno-multiwan/src/widgets/multiwan.interface.edit.html
+
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-rule-edit.js
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-zone-edit.js
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-rule-edit.js
+
+# internet
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/widgets/firewall-wan-service-edit.html
+
+# internet
+
+# internet
+
+# internet
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/pages/internet-firewall-port-mapping.html
+
+# /home/martin/juci/plugins/juci-firewall-fw3/src/pages/internet-firewall-services.html
+
+# internet
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-event/src/pages/event-log-config.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-client-mode.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-link-to-interfaces.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-adsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-vdsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# phone
+
+# phone
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/widgets/juci-config.js
+
+# /home/martin/juci/juci//src/widgets/juci-select.js
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# status
+
+# settings
+
+# internet
+
+# wifi
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/wifi.json
+

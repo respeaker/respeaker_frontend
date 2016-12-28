@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-usb/src/widgets/overview.usb.html
+# #-#-#-#-#  template.pot  #-#-#-#-#
+# /home/martin/juci/plugins/juci-usb/src/widgets/overview.usb.small.html
+msgid "USB"
+msgstr ""
+
+msgid "USB Devices"
+msgstr "USB Devices"
+
+msgid "usb.devices.info"
+msgstr "USB device information"
+
+msgid "Device ID"
+msgstr "Device ID"
+
+# /home/martin/juci/plugins/juci-usb/src/pages/status-usb.html
+msgid "Vendor ID"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-usb/src/pages/status-usb.html
+msgid "Vendor Name"
+msgstr ""
+
+msgid "Device Name"
+msgstr "Device Name"
+
+# share/menu.d/status.json
+msgid "status-usb-title"
+msgstr "USB Status"
+
+# share/menu.d/status.json
+msgid "menu-status-usb-title"
+msgstr "USB Status"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+

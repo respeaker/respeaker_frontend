@@ -1,0 +1,89 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-dmz.html 
+msgid "internet-firewall-dmz-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-forwarding.html 
+msgid "internet-firewall-forwarding-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-port-mapping.html 
+msgid "internet-firewall-port-mapping-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-rules.html 
+msgid "internet-firewall-rules-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-services.html 
+msgid "internet-firewall-services-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-svcfilter.html 
+msgid "internet-firewall-svcfilter-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-urlblock.html 
+msgid "internet-firewall-urlblock-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-wordfilter.html 
+msgid "internet-firewall-wordfilter-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-zones.html 
+msgid "internet-firewall-zones-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall.html 
+msgid "internet-firewall-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-parental-control.html 
+msgid "internet-parental-control-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-dmz.html 
+msgid "menu-internet-firewall-dmz-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-forwarding.html 
+msgid "menu-internet-firewall-forwarding-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-port-mapping.html 
+msgid "menu-internet-firewall-port-mapping-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-rules.html 
+msgid "menu-internet-firewall-rules-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-services.html 
+msgid "menu-internet-firewall-services-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-svcfilter.html 
+msgid "menu-internet-firewall-svcfilter-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-urlblock.html 
+msgid "menu-internet-firewall-urlblock-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-wordfilter.html 
+msgid "menu-internet-firewall-wordfilter-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall-zones.html 
+msgid "menu-internet-firewall-zones-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-firewall.html 
+msgid "menu-internet-firewall-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-firewall-fw3/src/pages//internet-parental-control.html 
+msgid "menu-internet-parental-control-title"
+msgstr ""
+

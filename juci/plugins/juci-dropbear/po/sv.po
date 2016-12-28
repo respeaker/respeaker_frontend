@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Dropbear SSH"
+msgstr "SSH"
+
+msgid "settings.dropbear.info"
+msgstr "Inställningar för SSH-åtkomst till din router"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Start/Stop Service"
+msgstr "Starta/Stoppa tjänsten"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Start or stop service"
+msgstr "Starta eller stoppa tjänsten"
+
+msgid "Enabled"
+msgstr "Aktiv"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable/Disable starting SSH service during boot"
+msgstr "Slå på/av SSH tjänsten"
+
+msgid "Verbose logging"
+msgstr "Utförlig loggning"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Set to 1 to enable verbose output by the start script"
+msgstr "Sätt till 1 för att slå på extra logginformation"
+
+msgid "Banner File"
+msgstr "Banner-fil"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid ""
+"Name of a file to be printed before the user has authenticated successfully"
+msgstr "Namn på filen som ska användas som banner när användaren loggar in"
+
+msgid "Banner File Path"
+msgstr "Banner-filens sökväg"
+
+msgid "Password Authentication"
+msgstr "Lösenordsautentisering"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Listen Port"
+msgstr "Port"
+
+msgid "Enable Root Password Auth"
+msgstr "Tillåt inloggning med lösenord för root"
+
+msgid "Enable Root Login"
+msgstr "Tillåt inloggning för root"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable Forwarded Ports"
+msgstr "Slå på port-forwarding funktionalitet"
+
+msgid "Interface"
+msgstr "Interface"
+
+msgid "RSA Key File"
+msgstr "RSA nyckelfil"
+
+msgid "DSS Key File"
+msgstr "DNS nyckelfil"
+
+msgid "Connection Keep Alive"
+msgstr "Keep-Alive funktion"
+
+msgid "Idle Timeout"
+msgstr "Timeout inaktivitet"
+
+msgid "settings-management-dropbear-title"
+msgstr "SSH"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "menu-settings-management-dropbear-title"
+msgstr "SSH"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-client-mode.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-link-to-interfaces.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-adsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-vdsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# phone
+
+# phone
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# share/menu.d/status.json
+
+# menu.d/juci-mod-voice.json
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/widgets/juci-config.js
+
+# /home/martin/juci/juci//src/widgets/juci-select.js
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/default.html
+
+# status
+
+# settings
+
+# internet
+
+# internet
+
+# internet
+
+# internet
+
+# internet
+
+# internet
+
+# wifi
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/wifi.json
+

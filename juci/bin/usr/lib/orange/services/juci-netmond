@@ -1,0 +1,136 @@
+#!/usr/bin/lua 
+
+-- Author: Martin K. Schröder <mkschreder.uk@gmail.com>
+
+require "ubus"
+require "uloop"
+local juci = require("juci/core"); 
+
+local console = {
+	log = function(msg)
+		local fd = io.open("/dev/console", "w"); 
+		fd:write("juci-networkd: "..(msg or "").."\n"); 
+		fd:close();
+	end
+}; 
+
+function find(tbl, cb) 
+	for _,v in pairs(tbl) do 
+		if cb(v) then return v; end
+	end
+	return nil; 
+end
+
+function host_alive(ip)
+	local alive = juci.shell("ping -c 1 -W 4 %s | grep 'packets received' | awk '{ if($1 == $4) { print 1 } else { print 0 } }'", ip); 
+	if alive:match("1") then 
+		return true; 
+	else 
+		return false; 
+	end
+end
+
+local conn = ubus.connect()
+if not conn then
+	error("Failed to connect to ubus")
+end
+
+local Netmon = {
+	clients = {}
+}; 
+
+function Netmon:new(o)
+	o = o or {}; 
+	setmetatable(o, self); 
+	self.__index = self; 
+	return o; 
+end 
+
+function Netmon:update_clients()
+	-- check which clients have connected and which ones have disconnected
+	local result = conn:call("/juci/network", "clients", {}); 
+	if not result or not result.clients then return; end
+	local clients = {}; 
+	-- insert all clients into a map 
+	for i,v in ipairs(result.clients) do clients[v.macaddr] = v; end
+	local online_clients = {}; 
+	local offline_clients = self.clients; 
+	
+	for mac,cl in pairs(clients) do 
+		local existing = offline_clients[mac]; 
+		if existing then 
+			if host_alive(existing.ipaddr) then 
+				-- client was known before and is still online
+				offline_clients[mac] = nil; 
+				online_clients[mac] = cl; 
+			else 
+				-- client was known before but has disconnected
+				-- skip and handle later
+			end
+		else 
+			if host_alive(cl.ipaddr) then 
+				-- client was not known before and is now online
+				online_clients[mac] = cl; 
+				conn:send("juci.netmond.client.up", cl); 
+			else 
+				-- do nothing
+			end
+		end
+	end
+	
+	-- the clients that are left in the old list are all offline then
+	for mac,cl in pairs(offline_clients) do
+		conn:send("juci.netmond.client.down", cl); 
+	end
+		
+	-- now we can replace our list of clients with the new list of online clients that we have generated
+	self.clients = online_clients; 
+
+	-- resolve the manufacturers and update known hosts database
+	print("Updating hosts database..."); 
+	-- TODO: this is wrong way to do this because we are writing to FLASH! put it into a file instead!
+	--[[local res = conn:call("uci", "get", { config = "hosts" }); 
+	if(not res or not res.values) then return; end
+	local hosts = res.values;  
+	for mac,cl in pairs(online_clients) do 
+		if hosts[mac] then 
+			local host = hosts[mac]; 
+			for k,v in pairs(cl) do 
+				host[k] = v; 
+			end
+			print("Updating host database entry for "..mac); 
+			conn:call("uci", "set", { config = "hosts", section = mac, values = host }); 
+		else 
+			local mfinfo = conn:call("juci.macdb", "lookup", { mac = mac }); 
+			if mfinfo and mfinfo.manufacturer then 
+				cl.manufacturer = mfinfo.manufacturer; 
+			end 
+			-- create a new entry in the database 
+			print("Creating host database entry for "..mac); 
+			local name = mac:gsub(":", "_"); -- unfortunately uci does not seem to support : in names
+			conn:call("uci", "add", { config = "hosts", type = "host", name = name, values = cl }); 
+		end
+	end
+	-- commit all changes
+	conn:call("uci", "commit", { config = "hosts" }); 
+	]]--
+end
+
+function Netmon:monitor()
+	while true do 
+		-- currently we don't parse monitor output but we maybe should in the future.  
+		--local fd = assert(io.popen("ip monitor neigh")); -- we monitor events on neighbor object only 
+		--for line in fd:lines() do 
+		--	print("Netlink: "..line); 
+		--	self:update_clients();
+		--end
+		--fd:close(); 
+		-- this is much better than events until we do more filtering on events we handle
+		self:update_clients(); 
+		juci.shell("sleep 5"); 
+	end
+end
+
+local netmon = Netmon:new(); 
+
+netmon:monitor(); 

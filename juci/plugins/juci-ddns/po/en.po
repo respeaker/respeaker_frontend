@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Interface"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+msgid "Script"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+msgid "Web"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Enabled"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Label"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "IP Retreival Method"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Pick Connection"
+msgstr ""
+
+msgid "Pick Interface"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Enter website to poll for ip address"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Script Path"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Enter path to script on router"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Provider"
+msgstr ""
+
+msgid "Choose DNS Provider"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Domain name"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Username"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Password"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Use HTTPS"
+msgstr ""
+
+msgid "Enter DDNS Provider"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-ddns/src/pages/internet-services-ddns.html
+msgid "DDNS (Dynamic DNS)"
+msgstr ""
+
+msgid "ddns.config.info"
+msgstr ""
+"DDNS allows you to access your router from the Internet using a domain name "
+"instead of IP address. You will need an account on a DDNS service provider."
+
+msgid "internet-services-ddns-title"
+msgstr "DDNS"
+
+msgid "menu-internet-services-ddns-title"
+msgstr "DDNS"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+

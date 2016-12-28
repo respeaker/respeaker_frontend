@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-freecwmp/src/pages//freecwmp-config.html 
+msgid "freecwmp-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-freecwmp/src/pages//freecwmp-config.html 
+msgid "menu-freecwmp-config-title"
+msgstr ""
+

@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/dropbear-authorized-keys.js
+msgid "Key ending with"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.js
+msgid "Dropbear Instance "
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.js
+msgid "Please select a instance in the list to remove"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.js
+msgid "Unable to remove last instance"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.js
+msgid "Are you sure you want to remove this instance?"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/widgets/dropbear-add-key.js
+msgid "You need to insert the public key data!"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/widgets/dropbear-add-key.html
+msgid "Paste your key here:"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/widgets/dropbear-add-key.html
+msgid "Add new SSH key"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Banner File"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid ""
+"Name of a file to be printed before the user has authenticated successfully"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Banner File Path"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Password Authentication"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Port"
+msgstr ""
+
+msgid "Listen Port"
+msgstr "Listen Port"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable Root Password Auth"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable Root Login"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable Forwarded Ports"
+msgstr ""
+
+msgid "Interface"
+msgstr "Interface"
+
+# /home/martin/juci/plugins/juci-dropbear/src/widgets/dropbear-settings-edit.html
+msgid "ANY"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "RSA Key File"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "DSS Key File"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Connection Keep Alive"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Idle Timeout"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/dropbear-authorized-keys.html
+msgid "Authorized SSH keys"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Dropbear SSH"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "General settings"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Start/Stop Service"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Start or stop service"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enabled"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable/Disable starting SSH service during boot"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Verbose logging"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Set to 1 to enable verbose output by the start script"
+msgstr ""
+
+msgid "Dropbear Instances"
+msgstr ""
+
+msgid "settings.dropbear.instance"
+msgstr "Configure settings for multiple instances of SSH server. "
+
+msgid "settings-management-dropbear-title"
+msgstr "SSH (dropbear)"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/dropbear-authorized-keys.html
+msgid "dropbear-authorized-keys-title"
+msgstr "SSH Keys"
+
+msgid "menu-settings-management-dropbear-title"
+msgstr "SSH"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/dropbear-authorized-keys.html
+msgid "menu-dropbear-authorized-keys-title"
+msgstr "SSH Keys"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+

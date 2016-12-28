@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JUCI\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Inteno\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+# /home/martin/juci/plugins/juci-samba/src/pages/internet-services-samba.js
+msgid "New samba share"
+msgstr "Uusi samba jako"
+
+msgid "Name"
+msgstr "Nimi"
+
+# /home/martin/juci/plugins/juci-samba/src/widgets/samba-share-edit.html
+msgid "Path"
+msgstr "Polku"
+
+msgid "Allow Guest Access"
+msgstr "Salli vierasverkkopääsy"
+
+# /home/martin/juci/plugins/juci-samba/src/widgets/samba-share-edit.html
+msgid "Read only?"
+msgstr "Vain luku?"
+
+msgid "Username"
+msgstr "Käyttäjänimi"
+
+msgid "Password"
+msgstr "Salasana"
+
+msgid "Description"
+msgstr "Kuvaus"
+
+# /home/martin/juci/plugins/juci-samba/src/pages/internet-services-samba.html
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+msgid "services.samba.info"
+msgstr "Samba"
+
+# /home/martin/juci/plugins/juci-samba/src/pages/internet-services-samba.html
+msgid "Workgroup"
+msgstr "Työryhmäverkko"
+
+# /home/martin/juci/plugins/juci-samba/src/pages/internet-services-samba.html
+msgid "Share User Home Directory"
+msgstr "Jaa käyttäjän kotihakemisto"
+
+# /home/martin/juci/plugins/juci-samba/src/pages/internet-services-samba.html
+msgid "Samba Shares"
+msgstr "Samba verkkojaot"
+
+msgid "samba.shares.info"
+msgstr " "
+
+msgid "Samba Users"
+msgstr "Samba Käyttäjät"
+
+# /home/martin/juci/plugins/juci-samba/src/pages/internet-services-samba.html
+msgid "samba.users.info"
+msgstr "Samba käyttäjät"
+
+msgid "internet-services-samba-title"
+msgstr "Samba"
+
+msgid "menu-internet-services-samba-title"
+msgstr "Samba"
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+

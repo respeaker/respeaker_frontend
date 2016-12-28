@@ -1,0 +1,89 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//internet-services-ntp.html 
+msgid "internet-services-ntp-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-configuration.html 
+msgid "settings-configuration-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-energy.html 
+msgid "settings-energy-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-management.html 
+msgid "settings-management-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-password.html 
+msgid "settings-password-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-services.html 
+msgid "settings-services-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-system.html 
+msgid "settings-system-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-uci.html 
+msgid "settings-uci-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//status-system-processes.html 
+msgid "status-system-processes-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//status-system.html 
+msgid "status-system-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//system.html 
+msgid "system-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//internet-services-ntp.html 
+msgid "menu-internet-services-ntp-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-configuration.html 
+msgid "menu-settings-configuration-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-energy.html 
+msgid "menu-settings-energy-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-management.html 
+msgid "menu-settings-management-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-password.html 
+msgid "menu-settings-password-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-services.html 
+msgid "menu-settings-services-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-system.html 
+msgid "menu-settings-system-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//settings-uci.html 
+msgid "menu-settings-uci-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//status-system-processes.html 
+msgid "menu-status-system-processes-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//status-system.html 
+msgid "menu-status-system-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-system/src/pages//system.html 
+msgid "menu-system-title"
+msgstr ""
+

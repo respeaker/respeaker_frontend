@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-diagnostics/src/pages//status-diagnostics.html 
+msgid "status-diagnostics-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-diagnostics/src/pages//status-diagnostics.html 
+msgid "menu-status-diagnostics-title"
+msgstr ""
+

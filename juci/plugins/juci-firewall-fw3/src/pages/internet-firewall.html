@@ -1,0 +1,17 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="InternetFirewallPageCtrl">
+		<juci-config-section title="{{'Firewall Settings'|translate}}">
+			<p translate>internet.firewall.info</p>
+			<juci-config-lines>
+				<juci-config-line title="{{'Enable firewall'|translate}}">
+					<switch ng-model="firewall.settings.disabled.value" class="green" inverted></switch>
+				</juci-config-line>
+				<!-- removing this for now because it has no meaningful function. The code behind was simply disabling all redirects. 
+					need to decide exactly what is asked here and then update the firewall.js file accordingly so that we get meaningful functionality out of this -->
+				<!--<juci-config-line title="{{'Enable NAT'|translate}}">
+					<switch ng-model="data.nat_enabled" class="green" ng-change="onEnableNAT()"/>
+				</juci-config-line>-->
+			</juci-config-lines>
+		</juci-config-section>
+	</div>
+</juci-layout-with-sidebar>

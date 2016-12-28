@@ -1,0 +1,56 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+/* needed for modals */
+.modal-backdrop {
+	z-index: 0; 
+}
+
+/*input[type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label {*/
+    /*cursor: pointer;*/
+    /*font-weight: normal;*/
+    /*line-height: 20px;*/
+    /*margin-bottom: 15px;*/
+    /*padding-left: 25px;*/
+    /*position: relative;*/
+    /*z-index: 2;*/
+/*}*/ 
+
+.field-error {
+	border-left: 4px solid rgba(255, 0, 0, 0.6); 
+}
+
+.juci-config-apply-pane {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color: white;
+	padding: 10px;
+	z-index: 1000; 
+	box-shadow: 1px 1px 5px 1px rgb(136, 136, 136); 
+}
+
+.juci-config-info {
+	margin-bottom: 20px; 
+}
+
+.juci-config-line-error {
+	background-color: red; 
+}
+
+.no-side-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.tab-content {
+	padding: 0px 10px 10px 10px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid transparent;
+	border-radius: 0px 0px 5px 5px;
+}

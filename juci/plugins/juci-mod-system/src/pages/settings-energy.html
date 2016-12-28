@@ -1,0 +1,24 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="SettingsEnergyCtrl">
+		<juci-config-heading>{{ 'Power Saving and Energy Settings' | translate }}</juci-config-heading>
+		<juci-config-info>{{ 'settings.energy.info' | translate }}</juci-config-info>
+		<p translate ng-hide="boardpanel">Missing uci config boardpanel.</p>
+		<juci-config-section title="{{'Energy Settings'|translate}}"ng-show="boardpanel">
+			<juci-config-lines>
+				<juci-config-line title="{{'USB Port'|translate}}">
+					<switch id="enabled" name="enabled" ng-model="boardpanel.settings.usb_port.value" class="green" ng-change="onSave()"></switch>
+				</juci-config-line>
+				<juci-config-line title="{{'Status-LED'|translate}}">
+					<switch id="enabled" name="enabled" ng-model="boardpanel.settings.status_led.value" class="green" ng-change="onSave()"></switch>
+				</juci-config-line>
+				<juci-config-line title="{{'Power-LED'|translate}}">
+					<switch id="enabled" name="enabled" ng-model="boardpanel.settings.power_led.value" class="green" ng-change="onSave()"></switch>
+				</juci-config-line>
+				<juci-config-line title="{{'Power-LED Brightness'|translate}}" no-pull ng-show="boardpanel.settings.power_led.value">
+					<juci-brightness ng-model="boardpanel.settings.power_led_br.value" min="0" max="100" ng-change="onSave()"></juci-brightness>
+					<!--<switch id="enabled" name="enabled" ng-model="boardpanel.settings.power_led_br.value" class="green"></switch>-->
+				</juci-config-line>
+			</juci-config-lines>
+		</juci-config-section>
+	</div>
+</juci-layout-with-sidebar>

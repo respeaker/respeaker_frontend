@@ -1,0 +1,13 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="StatusNetworkPage">
+		<juci-table
+			title="{{'Connections'|translate}}"
+			data="systemConnectionsTbl"></juci-table>
+		<juci-table
+			title="{{'DHCP Leases'|translate}}"
+			data="systemDHCPLeasesTbl"></juci-table>
+		<juci-table
+			title="{{'Active Stations'|translate}}"
+			data="systemStationsTbl"></juci-table>
+	</div>
+</juci-layout-with-sidebar>

@@ -1,0 +1,17 @@
+
+-e # /Users/Apple/Documents/github/juci/themes/juci-theme-openwrt/src/pages//overview.html 
+msgid "overview-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/themes/juci-theme-openwrt/src/pages//status-about.html 
+msgid "status-about-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/themes/juci-theme-openwrt/src/pages//overview.html 
+msgid "menu-overview-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/themes/juci-theme-openwrt/src/pages//status-about.html 
+msgid "menu-status-about-title"
+msgstr ""
+

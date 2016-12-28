@@ -1,0 +1,61 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="StatusNetworkRoutes">
+		<h2 translate>Routing and ARP Tables</h2>
+		<juci-config-info>{{'status.network.routes.info'|translate}}</juci-config-info>
+		<juci-config-section title="{{'ARP Table'|translate}}">
+			<table class="table">
+				<thead><th translate>IP address</th><th translate>MAC address</th><th translate>Device</th></thead>
+				<tr ng-repeat="arp in arp_table track by $index">
+					<td>{{arp.ipaddr}}</td>
+					<td>{{arp.macaddr}}</td>
+					<td>{{arp.device}}</td>
+				</tr>
+			</table>
+		</juci-config-section>
+		<juci-config-section title="{{'IPv4 Routing Table'|translate}}">
+			<table class="table">
+				<thead>
+					<th translate>IPv4 address</th>
+					<th translate>Gateway</th>
+					<th translate>Genmask</th>
+					<th translate>Device</th>
+				</thead>
+				<tr ng-repeat="route in ipv4_routes track by $index">
+					<td>{{route.destination}}</td>
+					<td>{{route.gateway}}</td>
+					<td>{{route.mask}}</td>
+					<td>{{route.iface}}</td>
+				</tr>
+			</table>
+		</juci-config-section>
+		<juci-config-section title="{{'IPv6 Routing Table'|translate}}">
+			<table class="table">
+				<thead><th translate>IPv6 address</th><th translate>Next Hop</th><th translate>Device</th></thead>
+				<tr ng-repeat="route in ipv6_routes track by $index">
+					<td>{{route.destination}}</td>
+					<td>{{route.next_hop}}</td>
+					<td>{{route.iface}}</td>
+				</tr>
+			</table>
+		</juci-config-section>
+		<juci-config-section title="{{'IPv6 Neighbors Table'|translate}}">
+			<div class="alert alert-info" ng-hide="neighbors.length" translate>No IPv6 devices connected</div>
+			<table class="table" ng-show="neighbors.length">
+				<thead>
+					<th translate>IPv6 address</th>
+					<th translate>IPv6 status</th>
+					<th translate>Device</th>
+					<th translate>MAC Address</th>
+					<th translate>Router</th>
+				</thead>
+				<tr ng-repeat="n in neighbors track by $index">
+					<td>{{n.ip6addr}}</td>
+					<td>{{n.ip6status}}</td>
+					<td>{{n.device}}</td>
+					<td>{{n.macaddr}}</td>
+					<td>{{n.router}}</td>
+				</tr>
+			</table>
+		</juci-config-section>
+	</div>
+</juci-layout-with-sidebar>

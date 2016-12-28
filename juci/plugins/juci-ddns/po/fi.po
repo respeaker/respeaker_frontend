@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JUCI\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Inteno\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+msgid "Interface"
+msgstr "Fyysinen liitäntä"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+msgid "Network"
+msgstr "Verkko"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+msgid "Script"
+msgstr "Skripti"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.js
+msgid "Web"
+msgstr "Web"
+
+msgid "Enabled"
+msgstr "Käytössä"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Label"
+msgstr "Nimi"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "IP Retreival Method"
+msgstr "IP Retreival Method"
+
+msgid "Pick Connection"
+msgstr "Valitse yhteys"
+
+msgid "Pick Interface"
+msgstr "Valitse fyysinen liitäntä"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Enter website to poll for ip address"
+msgstr "Syötä verkkosivun osoite IP-kyselyä varten"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Script Path"
+msgstr "Script Path"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Enter path to script on router"
+msgstr "Anna komentosarjalle kuvaava nimi"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Provider"
+msgstr "Palveluntarjoaja"
+
+msgid "Choose DNS Provider"
+msgstr "Valitse DNS-palveluntarjoaja"
+
+msgid "Domain name"
+msgstr "Toimialue"
+
+msgid "Username"
+msgstr "Käyttäjänimi"
+
+msgid "Password"
+msgstr "Salasana"
+
+# /home/martin/juci/plugins/juci-ddns/src/widgets/ddns-network-settings-edit.html
+msgid "Use HTTPS"
+msgstr "Käytä HTTPS:ää (salattu HTTP)"
+
+msgid "Enter DDNS Provider"
+msgstr "Valitse DNS-palveluntarjoaja"
+
+msgid "DDNS (Dynamic DNS)"
+msgstr "DDNS (Dynaaminen DNS)"
+
+# /home/martin/juci/plugins/juci-ddns/src/pages/internet-services-ddns.html
+msgid "ddns.config.info"
+msgstr ""
+"DDNS mahdollistaa yhteydenottamisen laitteeseen Internetistä isäntänimeä "
+"käyttämällä IP-osoitteen sijaan. Tarvitset tätä varten tilin DDNS "
+"palveluntarjoajaltasi."
+
+# /home/martin/juci/plugins/juci-ddns/src/pages/internet-services-ddns.html
+msgid "internet-services-ddns-title"
+msgstr "DDNS"
+
+msgid "menu-internet-services-ddns-title"
+msgstr "DDNS"
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+

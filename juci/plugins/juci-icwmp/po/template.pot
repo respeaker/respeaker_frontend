@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-icwmp/src/pages//icwmp-config.html 
+msgid "icwmp-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-icwmp/src/pages//icwmp-config.html 
+msgid "menu-icwmp-config-title"
+msgstr ""
+

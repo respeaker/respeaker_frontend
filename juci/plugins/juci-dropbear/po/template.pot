@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-dropbear/src/pages//settings-management-dropbear.html 
+msgid "settings-management-dropbear-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-dropbear/src/pages//settings-management-dropbear.html 
+msgid "menu-settings-management-dropbear-title"
+msgstr ""
+

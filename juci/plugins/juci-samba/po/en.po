@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "New samba share"
+msgstr "Samba shares configuration"
+
+msgid "Name"
+msgstr "Rule Name"
+
+# /home/martin/juci/plugins/juci-samba/src/widgets/samba-share-edit.html
+msgid "Path"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-samba/src/widgets/samba-share-edit.html
+msgid "Allow Guest Access"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-samba/src/widgets/samba-share-edit.html
+msgid "Read only?"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "services.samba.info"
+msgstr "General samba settings."
+
+msgid "samba.users.info"
+msgstr "Samba Users Configuration"
+
+# /home/martin/juci/plugins/juci-samba/src/pages/internet-services-samba.html
+msgid "Workgroup"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-samba/src/pages/internet-services-samba.html
+msgid "Share User Home Directory"
+msgstr ""
+
+msgid "Samba Shares Configuration"
+msgstr ""
+
+msgid "samba.shares.info"
+msgstr "Samba shares configuration"
+
+msgid "internet-services-samba-title"
+msgstr "Samba Configuration"
+
+msgid "menu-internet-services-samba-title"
+msgstr "Samba"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+

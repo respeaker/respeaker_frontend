@@ -1,0 +1,17 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-status/src/pages//status-restart.html 
+msgid "status-restart-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-status/src/pages//status-status-network.html 
+msgid "status-status-network-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-status/src/pages//status-restart.html 
+msgid "menu-status-restart-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-mod-status/src/pages//status-status-network.html 
+msgid "menu-status-status-network-title"
+msgstr ""
+
