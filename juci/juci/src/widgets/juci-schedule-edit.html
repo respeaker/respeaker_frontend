@@ -1,0 +1,22 @@
+<form name="ruleForm" class="form-horizontal" novalidate>
+	<!--<div class="modal-body">-->
+		<juci-config-lines>
+			<juci-config-line title="{{'Time Frame'|translate}}">
+				<juci-select ng-model="selectedTimeFrame" on-change="onChangeDays($value)" ng-items="allTimeFrames" placeholder="{{'Preselected Days'|translate}}"></juci-select>
+			</juci-config-line>
+			<juci-config-line title="{{'Days'|translate}}" no-pull >
+				<div class="row" ng-class="{'field-error': schedule.days.error}" >
+					<div class="col-xs-6 " ng-repeat="day in allDayNames">
+						<div class="checkbox checkbox-info">
+							<input type="checkbox" {{(selectedTimeFrame != 'individual')?"disabled":""}} checklist-model="days" checklist-value="day.value">
+							<label><strong>{{day.label}}</strong></label>
+						</div>
+					</div>
+				</div>
+			</juci-config-line>
+			<juci-config-line title="{{'Time'|translate}}" no-pull>
+				<juci-input-timespan ng-model="time_span" ></juci-input-timespan>
+			</juci-config-line>
+		</juci-config-lines>
+	<!--</div>-->
+</form>

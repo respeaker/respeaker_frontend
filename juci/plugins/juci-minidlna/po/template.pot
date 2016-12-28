@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-minidlna/src/pages//internet-services-minidlna.html 
+msgid "internet-services-minidlna-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-minidlna/src/pages//internet-services-minidlna.html 
+msgid "menu-internet-services-minidlna-title"
+msgstr ""
+

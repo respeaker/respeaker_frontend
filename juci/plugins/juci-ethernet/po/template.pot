@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-ethernet/src/pages//internet-ethernet.html 
+msgid "internet-ethernet-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-ethernet/src/pages//internet-ethernet.html 
+msgid "menu-internet-ethernet-title"
+msgstr ""
+

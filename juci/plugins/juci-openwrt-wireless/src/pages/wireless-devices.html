@@ -1,0 +1,11 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="wirelessDevicesPage">
+		<juci-config-section title="{{'Wireless Radios'|translate}}">
+			<juci-config-info>{{ 'wifi.radios.info' | translate }}</juci-config-info>
+			<div ng-if="misconfigured" class="alert alert-danger" translate>One or more radios is misconfigured in UCI. All radios should have an ifname parameter set which binds configuration to actual radio!</div>
+			<juci-list-editor ng-items="devices" item-editor="uci-wireless-device-edit" 
+				on-create="onCreateDevice()" on-delete="onDeleteDevice($item)" 
+				get-item-title="$item['.name'] + ' (' + ($item['.info'].frequency/1000) + 'Ghz)'" allow-edit="false"></juci-list-editor>
+		</juci-config-section>
+	</div>
+</juci-layout-with-sidebar>

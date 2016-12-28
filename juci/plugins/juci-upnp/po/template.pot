@@ -1,0 +1,17 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-upnp/src/pages//upnpd-settings.html 
+msgid "upnpd-settings-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-upnp/src/pages//upnpd-status.html 
+msgid "upnpd-status-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-upnp/src/pages//upnpd-settings.html 
+msgid "menu-upnpd-settings-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-upnp/src/pages//upnpd-status.html 
+msgid "menu-upnpd-status-title"
+msgstr ""
+

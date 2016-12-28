@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JUCI\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Inteno\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-basic-settings-edit.js
+msgid "Hour"
+msgstr "Tunti"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-basic-settings-edit.js
+msgid "Hours"
+msgstr "Tuntia"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-basic-settings-edit.js
+msgid "Forever"
+msgstr "Aina"
+
+msgid "Address Pool Start IP"
+msgstr "Ensimmäinen osoite"
+
+msgid "Address Pool End IP"
+msgstr "Viimeinen osoite"
+
+msgid "DHCP Lease Time"
+msgstr "DHCP-varauksen aika"
+
+msgid "Lease Time"
+msgstr "Vuokra-aika"
+
+msgid "Connection"
+msgstr "Yhteys"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-entry-edit.html
+msgid "Network"
+msgstr "Verkko"
+
+msgid "Hostname"
+msgstr "Isäntäkoneen nimi"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+msgid "MAC"
+msgstr "MAC"
+
+msgid "IPv4 Address"
+msgstr "IPv4-osoite"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+msgid "IPv6 Unique ID"
+msgstr "IPv6 Unique ID"
+
+msgid "IPv6 Address ID"
+msgstr "IPv6-osoite ID"
+
+msgid "Add Connected Host"
+msgstr "Lisää isäntäkone"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+msgid "Static DHCP"
+msgstr "Kiinteä DHCP"
+
+msgid "Device Name"
+msgstr "Laitteen nimi"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+msgid "MAC Address"
+msgstr "MAC-osoite"
+
+msgid "IP Address"
+msgstr "IP-osoite"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+msgid "DUID (IPv6)"
+msgstr "DUID (IPv6)"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+msgid "Host ID (IPv6)"
+msgstr "Host ID (IPv6)"
+
+msgid "DHCP Server"
+msgstr "DHCP-palvelin"
+
+# /home/martin/juci/plugins/juci-dnsmasq-dhcp/src/widgets/dhcp-static-hosts-edit.html
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+

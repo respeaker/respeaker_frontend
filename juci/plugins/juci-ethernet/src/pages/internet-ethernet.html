@@ -1,0 +1,27 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="InternetLayer2">
+		<juci-config-heading>{{ 'Layer-2 Devices' | translate }}</juci-config-heading>
+		<juci-config-info>{{ 'internet.ethernet.info' | translate }}</juci-config-info>
+		<juci-config-section ng-show="adapters">
+			<table class="table">
+				<thead>
+					<th><a href="" ng-click="order('type')" translate>Type</a></th>
+					<th><a href="" ng-click="order('name')" translate>Name</a></th>
+					<th><a href="" ng-click="order('device')" translate>Adapter</a></th>
+					<th><a href="" ng-click="order('macaddr')" translate>MAC</a></th>
+					<th><a href="" ng-click="order('mtu')" translate>MTU</a></th>
+					<th width="1px"><a href="" ng-click="order('state')" translate>Status</th>
+				</thead>
+				<tr ng-repeat="dev in adapters track by $index | orderBy:predicate:reverse">
+					<td><img ng-src="/img/juci-ethernet/icons/{{dev._icon}}.png" style="width: 20px; height: 20px;"/></td>
+					<td>{{dev.name}}</td>
+					<td>{{dev.device}}</td>
+					<td>{{dev.macaddr}}</td>
+					<td>{{dev.mtu}}</td>
+					<td style="white-space: nowrap;"><i class="fa fa-circle" ng-class="{'text-success': dev.state=='UP'}"></i> {{dev.state}}</td>
+				</tr>
+			</table>
+		</juci-config-section>
+		<i class="fa fa-spinner fa-spin fa-2x" ng-hide="adapters"></i>
+	</div>
+</juci-layout-with-sidebar>

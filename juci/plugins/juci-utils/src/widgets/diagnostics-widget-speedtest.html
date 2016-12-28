@@ -1,0 +1,45 @@
+<div>
+	<juci-config-section title="{{'TP test'|translate}}">
+		<juci-config-lines>
+			<juci-config-line title="{{'Direction'|translate}}">
+				<juci-select ng-model="data.test_type" ng-items="testType"/>
+			</juci-config-line>
+			<juci-config-line title="{{'Package Size'|translate}}">
+				<div class="input-group">
+					<input type="number" step="5" class="form-control" ng-model="data.packagesize" />
+					<span class="input-group-addon">Mb</span>
+				</div>
+			</juci-config-line>
+			<juci-config-line title="{{'Speedtest Server' | translate}}">
+				<juci-select ng-model="data.server" ng-items="allTestServers"/>
+			</juci-config-line>
+			<juci-config-line>
+				<button class="btn btn-default" ng-click="onRemoveAddress()">
+					<i class="fa fa-minus"></i>
+				</button>
+				<button class="btn btn-default" ng-click="onAddAddress()">
+					<i class="fa fa-plus"></i>
+				</button>
+			</juci-config-line>
+			<juci-config-line>
+				<button class="btn btn-default" ng-click="runTest()">
+				{{'Run test' | translate}}</button>
+			</juci-config-line>
+		</juci-config-lines>
+		<div class="alert alert-success" ng-show="data.state == 'result'">
+			{{'Test results'|translate}}: <br/>
+			<pre>{{data.result}}</pre>
+		</div>
+		<div class="alert alert-success" ng-show="data.state == 'running'">
+			<h4>
+				{{"Running test"|translate}}
+				<i class="fa fa-spinner fa-pulse fa-2x"></i>
+			</h4>
+		</div>
+	    <div class="alert alert-danger" ng-show="data.state == 'error'">
+			{{'Error'|translate}}: <br/>
+			<pre>{{data.result|translate}}</pre>
+		</div>
+	</juci-config-section>
+</div>
+

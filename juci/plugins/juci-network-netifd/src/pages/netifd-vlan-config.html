@@ -1,0 +1,14 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="NetifdVlanConfigPage">
+		<juci-config title="{{'VLAN Settings'|translate}}">
+			<p translate>Here you can configure VLAN/Switch settings</p>
+			<juci-list-editor 
+				ng-items="vlans" 
+				item-editor="netifd-switch-vlan-edit" 
+				get-item-title="$item.displayname.value || $item['.name']" 
+				on-create="onAddVlan()" 
+				on-delete="$item.$delete()"
+			/>
+		</juci-config>
+	</div>
+</juci-layout-with-sidebar>

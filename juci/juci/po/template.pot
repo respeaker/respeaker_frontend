@@ -1,0 +1,41 @@
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//404.html 
+msgid "404-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//bootstrap.html 
+msgid "bootstrap-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//default.html 
+msgid "default-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//login.html 
+msgid "login-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//overview.html 
+msgid "overview-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//404.html 
+msgid "menu-404-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//bootstrap.html 
+msgid "menu-bootstrap-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//default.html 
+msgid "menu-default-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//login.html 
+msgid "menu-login-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/juci//src/pages//overview.html 
+msgid "menu-overview-title"
+msgstr ""
+

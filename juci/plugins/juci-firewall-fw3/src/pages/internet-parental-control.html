@@ -1,0 +1,50 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="InternetParentalControlPage">
+		<h2 translate>Parental Control</h2>
+		<p translate>internet.parental.control.info</p>
+		<juci-config-section title="{{'Internet Access Scheduling'|translate}}">
+			<table class="table">
+				<thead>
+					<th translate>Weekdays</th>
+					<th translate>Start Time</th>
+					<th translate>Stop Time</th>
+					<th translate>MAC Addresses</th>
+					<th></th>
+					<th></th>
+				</thead>
+				<tbody >
+					<tr ng-repeat="r in accessRules track by $index">
+						<td>{{r.weekdays.value}}</td>
+						<td>{{convertTime(r.start_time.value, diff)}}</td>
+						<td>{{convertTime(r.stop_time.value, diff)}}</td>
+						<td>
+							<div ng-repeat="mac in r.src_mac.value track by $index">
+								<div class="col-xs-2"><i class="fa fa-desktop"></i></div>
+								<div class="col-xs-10" >{{mac}}</div>
+							</div>
+						</td>
+						<td style="width: 1%">
+							<button class="btn btn-default" ng-click="onEditAccessRule(r)"><i class="fa fa-pencil"></i></button>
+						</td>
+						<td style="width: 1%">
+							<button class="btn btn-default" ng-click="onDeleteAccessRule(r)"><i class="fa fa-trash-o"></i></button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="5"></td>
+						<td style="width: 1%"><button class="btn btn-default" ng-click="onCreateAccessRule()"><i class="fa fa-plus"></i></button></td>
+					</tr>
+				</tbody>
+			</table>
+		</juci-config-section>
+		<modal title="Add / Edit MAC Filter Scheduling" ng-show="rule" on-accept="onAcceptEdit()" on-dismiss="onCancelEdit()" dismiss-label="Cancel" accept-label="Save">
+			<juci-schedule-edit ng-model="rule"></juci-schedule-edit>
+			<juci-config-lines>
+				<juci-config-line title="MAC List">
+					<firewall-maclist-edit ng-model="rule.macList"/>
+				</juci-config-line>
+			</juci-config-line>
+			<juci-errors ng-model="errors"/>
+		</modal>
+	</div>
+</juci-layout-with-sidebar>

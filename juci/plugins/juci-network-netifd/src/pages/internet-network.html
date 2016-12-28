@@ -1,0 +1,8 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="InternetNetworkPage">
+		<juci-config-section title="{{'Connections'|translate}}">
+			<juci-config-info>{{ 'settings.network.info' | translate }}</juci-config-info>
+			<juci-list-editor ng-items="networks" item-editor="network-connection-edit" get-item-title="onGetItemTitle($item)" on-create="onAddConnection($item)" on-delete="onDeleteConnection($item)" on-edit-start="onEditConnection($item)"/>
+		</juci-config-section>
+	</div>
+</juci-layout-with-sidebar>

@@ -1,0 +1,57 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-2g-wireless.html 
+msgid "simple-2g-wireless-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-5g-wireless.html 
+msgid "simple-5g-wireless-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-admin.html 
+msgid "simple-admin-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-lan-config.html 
+msgid "simple-lan-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-lan-dhcp-config.html 
+msgid "simple-lan-dhcp-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-services.html 
+msgid "simple-services-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-wan-config.html 
+msgid "simple-wan-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-2g-wireless.html 
+msgid "menu-simple-2g-wireless-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-5g-wireless.html 
+msgid "menu-simple-5g-wireless-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-admin.html 
+msgid "menu-simple-admin-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-lan-config.html 
+msgid "menu-simple-lan-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-lan-dhcp-config.html 
+msgid "menu-simple-lan-dhcp-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-services.html 
+msgid "menu-simple-services-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-simple-gui/src/pages//simple-wan-config.html 
+msgid "menu-simple-wan-config-title"
+msgstr ""
+

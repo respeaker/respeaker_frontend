@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JUCI\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Inteno\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+# /home/martin/juci/plugins/juci-igmpinfo/src/pages/status-tv.js
+msgid "Unable to retreive igmptable from device!"
+msgstr "Ei voitu hakea igmptaulua laitteesta!"
+
+msgid "IGPM TV Status"
+msgstr "IPTV Tila"
+
+msgid "status.tv.info"
+msgstr "Tällä sivulla voit tarkistaa IPTV-palvelun tilan."
+
+msgid "Connection Status"
+msgstr "Yhteyden tila"
+
+msgid "IGMP TV Channels"
+msgstr "IGMP-TV-kanavat"
+
+# /home/martin/juci/plugins/juci-igmpinfo/src/pages/status-tv.html
+msgid "Group IP"
+msgstr "Ryhmä IP"
+
+msgid "Client IP"
+msgstr "Asiakas IP"
+
+# /home/martin/juci/plugins/juci-igmpinfo/src/pages/status-tv.html
+msgid "LAN Port"
+msgstr "LAN  portti"
+
+# /home/martin/juci/plugins/juci-igmpinfo/src/pages/status-tv.html
+msgid "WAN Port"
+msgstr "WAN portti"
+
+# /home/martin/juci/plugins/juci-igmpinfo/src/pages/status-tv.html
+msgid "Timeout"
+msgstr "Aikakatkaisu"
+
+msgid "status-tv-title"
+msgstr "IPTV Tila"
+
+msgid "menu-status-tv-title"
+msgstr "IPTV"
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+

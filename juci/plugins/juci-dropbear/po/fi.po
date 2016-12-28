@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JUCI\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Inteno\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Dropbear SSH"
+msgstr "Dropbear SSH"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "settings.dropbear.info"
+msgstr "Konfiguroi SSH-pääsy modeemiin."
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Start/Stop Service"
+msgstr "Käynnistä/Pysäytä"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Start or stop service"
+msgstr "Käynnistä tai pysäytä palvelu"
+
+msgid "Enabled"
+msgstr "Käytössä"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable/Disable starting SSH service during boot"
+msgstr "Ota käyttöön / poista käytöstä SSH-palvelu käynnistyksen aikana"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Verbose logging"
+msgstr "Kattava lokitus"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Set to 1 to enable verbose output by the start script"
+msgstr "Asetettu 1, joka ottaa käyttöön kattavan lokituksen"
+
+msgid "Banner File"
+msgstr "Banner tiedosto"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Name of a file to be printed before the user has authenticated successfully"
+msgstr "Tiedoston nimi tulostetaan ennen kuin käyttäjä on todennettu onnistuneesti"
+
+msgid "Banner File Path"
+msgstr "Bannerin tiedostopolku"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Password Authentication"
+msgstr "Salasanan tunnistus"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Port"
+msgstr "Portti"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Listen Port"
+msgstr "Kuuntelu portti"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable Root Password Auth"
+msgstr "Salli root salasana todennus"
+
+msgid "Enable Root Login"
+msgstr "Salli Root-käyttäjän Kirjautuminen"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Enable Forwarded Ports"
+msgstr "Enable Forwarded Ports"
+
+msgid "Interface"
+msgstr "Fyysinen liitäntä"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "RSA Key File"
+msgstr "RSA Key File"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "DSS Key File"
+msgstr "DSS Key File"
+
+msgid "Connection Keep Alive"
+msgstr "Yhteyksien elossapito"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "Idle Timeout"
+msgstr "Aikakatkaisu"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "settings-management-dropbear-title"
+msgstr "SSH"
+
+# /home/martin/juci/plugins/juci-dropbear/src/pages/settings-management-dropbear.html
+msgid "menu-settings-management-dropbear-title"
+msgstr "SSH"
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+

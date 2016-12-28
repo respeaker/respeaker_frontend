@@ -1,0 +1,124 @@
+#!/usr/bin/lua 
+
+-- Author: Martin K. Schröder <mkschreder.uk@gmail.com>
+
+require "ubus"
+require "uloop"
+
+local console = {
+	log = function(msg)
+		local fd = io.open("/dev/console", "w"); 
+		fd:write("juci-networkd: "..(msg or "").."\n"); 
+		fd:close();
+	end
+}; 
+
+local function find(tbl, cb) 
+	for _,v in pairs(tbl) do 
+		if cb(v) then return v; end
+	end
+	return nil; 
+end
+
+uloop.init()
+
+local conn = ubus.connect()
+if not conn then
+	error("Failed to connect to ubus")
+end
+
+local function ev_network_dongle_autoconf(opts)
+	local network = conn:call("uci", "get", { config = "network" }).values; 
+	local multiwan = conn:call("uci", "get", { config = "multiwan" }).values; 
+	local firewall = conn:call("uci", "get", { config = "firewall" }).values; 
+	
+	local device_mw_config = find(multiwan, function(v) if v[".type"] == "interface" and v[".name"] == opts.device then return true; end return false; end); 
+	local device_net_config = find(network, function(v) if v[".type"] == "interface" and v[".name"] == opts.device then return true; end return false; end); 
+	local fw_config = find(firewall, function(v) if v[".type"] == "zone" and v.name == "wan" then return true; end return false; end);
+	
+	if(not device_net_config) then
+		device_net_config = conn:call("uci", "add", { config = "network", type = "interface", name = opts.device, values = { ifname = opts.device, proto = "dhcp" } }); 
+		console.log("Created new network interface for "..opts.device); 
+	else 
+		device_net_config.disabled = false; 
+		conn:call("uci", "set", { config = "network", section = device_net_config[".name"], values = device_net_config }); 
+		console.log("Enabled existing configuration for "..opts.device); 
+	end
+	
+	if(not device_mw_config) then 
+		device_mw_config = conn:call("uci", "add", { config = "multiwan", type = "interface", name = opts.device, 
+			values = {
+				weight = 10, 
+				health_interval = 10, 
+				icmp_hosts = "dns", 
+				timeout = 3, 
+				health_fail_retries = 3, 
+				health_recovery_retries = 5, 
+				failover_to = "balance", 
+				dns = "auto"
+			} 
+		}); 
+		console.log("Created new multiwan config for "..opts.device);
+	end 
+	
+	-- now also make sure that our new network is also added to the firewall zone
+	if fw_config then 
+		if not fw_config.network then fw_config.network = {}; end
+		table.insert(fw_config.network, opts.device); 
+		console.log("Adding interface "..opts.device.." to firewall wan zone"); 
+		conn:call("uci", "set", { config = "firewall", section = fw_config[".name"], values = fw_config.network }); 
+		conn:call("uci", "commit", { config = "firewall" }); 
+	end 
+	
+	conn:call("uci", "commit", { config = "multiwan" }); 
+	conn:call("uci", "commit", { config = "network" }); 
+	
+	conn:send("juci.netmond.dongle.configured", opts); 
+	
+	console.log("Multiwan setup completed: "..opts.device); 
+end
+
+function ev_network_device_remove(opts)
+	console.log("Removing device "..opts.device); 
+	local network = conn:call("uci", "get", { config = "network" }).values; 
+	local device_net_config = network[opts.device]; 
+	
+	if(device_net_config) then
+		device_net_config.disabled = true; 
+		conn:call("uci", "set", { config = "network", section = opts.device, values = device_net_config }); 
+		conn:call("uci", "commit", { config = "network" }); 
+		console.log("Disabled interface "..device_net_config[".name"]); 
+		
+		conn:send("dongle-down", opts); 
+	end
+end
+
+local event_handlers = {
+	["hotplug.net"] = function(msg, type)
+		if msg.action == "add" then 
+			-- TODO: instead of just checking device name, check the capabilities of the device and ident it as a dongle
+			-- we can for example have dongles that come up as eth devices - then we need to make this work for them as well!
+			if(string.match(opts.device, "usb.*") or string.match(opts.device, "wwan.*")) then 
+				conn:send("juci.netdevd.dongle.up", msg);
+				ev_network_dongle_autoconf({ device = msg.interface }); 
+			end
+		elseif msg.action == "remove" then 
+			ev_network_device_remove({ device = msg.interface }); 
+		end
+		collectgarbage(); 
+	end,
+}
+
+conn:listen(event_handlers)
+
+conn:add({
+	["juci.network.netdevd"] = {
+		autoconf = {
+			function(req, msg)
+				
+			end, { device = ubus.STRING, network = ubus.STRING }
+		}
+	}
+}); 
+
+uloop.run()

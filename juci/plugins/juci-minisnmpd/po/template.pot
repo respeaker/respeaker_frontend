@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-minisnmpd/src/pages//minisnmpd-config.html 
+msgid "minisnmpd-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-minisnmpd/src/pages//minisnmpd-config.html 
+msgid "menu-minisnmpd-config-title"
+msgstr ""
+

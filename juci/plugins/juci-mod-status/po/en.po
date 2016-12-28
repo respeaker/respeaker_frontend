@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "Hostname"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "IPv4-Address"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "MAC-Address"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "Leasetime remaining"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "No active leases"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "MAC address"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "Signal"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "Noise"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "RX Rate"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "TX Rate"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "Active Connections"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.js
+msgid "No active stations"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-events.html
+msgid "Event Log"
+msgstr ""
+
+msgid "status.eventlog.info"
+msgstr ""
+"Here you can view system event log (Note: only latest 20 lines are shown) "
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-events.html
+msgid "Select events to show"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-events.html
+msgid "Log"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-events.html
+msgid "Date"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-events.html
+msgid "Type"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-events.html
+msgid "Source"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-events.html
+msgid "Message"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-restart.html
+msgid "Restart"
+msgstr ""
+
+msgid "status.restart.info"
+msgstr ""
+"This page allows to restart your Internet connection and reboot your router. "
+"Please note that for the entire process all phone, internet and TV services "
+"will be temporarily unavailable. "
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-restart.html
+msgid "Click here to restart your device"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-restart.html
+msgid ""
+"Restart takes about 3 minutes. When restart is completed the page will "
+"reload automatically. "
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.html
+msgid "Connections"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.html
+msgid "DHCP Leases"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-mod-status/src/pages/status-status-network.html
+msgid "Active Stations"
+msgstr ""
+
+# share/menu.d/status.json
+msgid "status-title"
+msgstr "Status"
+
+msgid "status-restart-title"
+msgstr "Restart"
+
+msgid "status-events-title"
+msgstr "Event Log"
+
+msgid "status-status-network-title"
+msgstr "Network Status"
+
+msgid "menu-status-title"
+msgstr "Status"
+
+msgid "menu-status-restart-title"
+msgstr "Restart"
+
+msgid "menu-status-events-title"
+msgstr "Event Log"
+
+msgid "menu-status-status-network-title"
+msgstr "Network Status"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+

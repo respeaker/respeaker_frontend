@@ -1,0 +1,73 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//internet-network.html 
+msgid "internet-network-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//internet-routes.html 
+msgid "internet-routes-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//internet-services.html 
+msgid "internet-services-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//netifd-status-clients.html 
+msgid "netifd-status-clients-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//netifd-vlan-config.html 
+msgid "netifd-vlan-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//network.html 
+msgid "network-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//status-network-nat.html 
+msgid "status-network-nat-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//status-network-routes.html 
+msgid "status-network-routes-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//status-network.html 
+msgid "status-network-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//internet-network.html 
+msgid "menu-internet-network-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//internet-routes.html 
+msgid "menu-internet-routes-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//internet-services.html 
+msgid "menu-internet-services-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//netifd-status-clients.html 
+msgid "menu-netifd-status-clients-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//netifd-vlan-config.html 
+msgid "menu-netifd-vlan-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//network.html 
+msgid "menu-network-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//status-network-nat.html 
+msgid "menu-status-network-nat-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//status-network-routes.html 
+msgid "menu-status-network-routes-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-network-netifd/src/pages//status-network.html 
+msgid "menu-status-network-title"
+msgstr ""
+

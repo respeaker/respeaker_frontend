@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JUCI\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Inteno\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "OK"
+msgstr "OK"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Invalid command"
+msgstr "Virheellinen komento"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Invalid parameters"
+msgstr "Virheellisiä parametreja"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Method not found"
+msgstr "Menetelmää ei löytynyt"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Object not found"
+msgstr "Kohdetta ei löytynyt"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "No data"
+msgstr "Ei dataa"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Access denied"
+msgstr "Pääsy evätty"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Timed out"
+msgstr "Aikakatkaistu"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Not supported"
+msgstr "Ei tuettu"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Unknown error"
+msgstr "Tuntematon virhe"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "Connection failed"
+msgstr "Yhteys epäonnistui"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "RPC error #"
+msgstr "RPC virhe #"
+
+# /home/martin/juci/juci//src/js/rpc.js
+msgid "You have been logged out due to inactivity"
+msgstr "Sinut on kirjattu ulos"
+
+# /home/martin/juci/juci//src/js/uci.js
+msgid "please specify both hour and minute value for time separated by ':'"
+msgstr "määritä sekä tunnit, että minuutit eroteltuna ':'"
+
+# /home/martin/juci/juci//src/js/uci.js
+msgid "please enter valid time in form hh:mm"
+msgstr "kirjoita kelvollinen aika muodossa tt: mm"
+
+# /home/martin/juci/juci//src/js/uci.js
+msgid "Please specify both start time and end time for schedule!"
+msgstr "Määritä sekä alkamisaika, että päättymisaika aikatauluun!"
+
+# /home/martin/juci/juci//src/js/uci.js
+msgid "Schedule start time must be lower than schedule end time!"
+msgstr "Aloitusaika täytyy olla pienempi kuin päättymisaika!"
+
+# /home/martin/juci/juci//src/js/uci.js
+msgid "Please pick days between mon-sun"
+msgstr "Valitse päivä ma-su väliltä"
+
+# /home/martin/juci/juci//src/js/uci.js
+msgid "Port value must be a valid port number or port range between 1 and 65536"
+msgstr "Portin arvon on oltava kelvollinen porttinumero tai porttialue 1–65536 väliltä"
+
+# /home/martin/juci/juci//src/js/uci.js
+msgid "Number value is not within valid range"
+msgstr "Numeroarvo ei ole sallittujen rajojen sisällä"
+
+# /home/martin/juci/juci//src/js/juci.js
+msgid "application.name"
+msgstr ""
+
+# /home/martin/juci/juci//src/widgets/juci-config.js
+msgid "Settings have been applied successfully!"
+msgstr "Asetukset otettu käyttöön!"
+
+msgid "Apply"
+msgstr "Ota käyttöön"
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+# /home/martin/juci/juci//src/widgets/juci-login.js
+msgid "Please enter correct username and password!"
+msgstr "Anna oikea käyttäjätunnus ja salasana!"
+
+msgid "Basic Mode"
+msgstr "Perusasetukset"
+
+# /home/martin/juci/juci//src/widgets/juci-mode-picker.js
+msgid "Expert Mode"
+msgstr "Edistyneet asetukset"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Individual Days"
+msgstr "Yksittäiset päivät"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Every Day"
+msgstr "Joka päivä"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Every Workday"
+msgstr "Joka työpäivä"
+
+msgid "All Weekend"
+msgstr "Viikonloppu"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Monday"
+msgstr "Maanantai"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Tuesday"
+msgstr "Tiistai"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Thursday"
+msgstr "Torstai"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Friday"
+msgstr "Perjantai"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Saturday"
+msgstr "Lauantai"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.js
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+msgid "-- Select One --"
+msgstr "Valitse yksi"
+
+# /home/martin/juci/juci//src/widgets/juci-input-port.html
+msgid "Start port"
+msgstr "Aloitusportti"
+
+# /home/martin/juci/juci//src/widgets/juci-input-port.html
+msgid "End port"
+msgstr "Viimeinen portti"
+
+# /home/martin/juci/juci//src/widgets/juci-input-port.html
+msgid "Port (1-65535)"
+msgstr "Portti (1-65535)"
+
+# /home/martin/juci/juci//src/widgets/juci-input-timespan.html
+msgid "from"
+msgstr "alkaen"
+
+# /home/martin/juci/juci//src/widgets/juci-input-timespan.html
+msgid "to"
+msgstr "asti"
+
+msgid "Add"
+msgstr "Lisää"
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+msgid "Delete"
+msgstr "Poista"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "Password"
+msgstr "Salasana"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "You are logged in!"
+msgstr "Olet kirjautuneena nimellä %s"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "Please sign in"
+msgstr "Kirjaudu sisään"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "You do not have an RPC connection to the router!"
+msgstr "Reitittimeen ei ole RPC yhteyttä"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "Connecting..."
+msgstr "Yhdistetään"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "Host"
+msgstr "Isäntäkone"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "Sign in"
+msgstr "Kirjaudu sisään"
+
+# /home/martin/juci/juci//src/widgets/juci-login.html
+msgid "Signing in..."
+msgstr "Kirjautuminen..."
+
+# /home/martin/juci/juci//src/widgets/juci-mode-picker.html
+msgid "Select Mode"
+msgstr "Valitse tila"
+
+# /home/martin/juci/juci//src/widgets/juci-navbar.html
+msgid "Toggle navigation"
+msgstr "Vaihda navigaatiota"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+msgid "Time Frame"
+msgstr "Aikakehys"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+msgid "Preselected Days"
+msgstr "Ennalta valitut päivät"
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+msgid "Days"
+msgstr "Päivät"
+
+msgid "Time"
+msgstr "Aika"
+
+# /home/martin/juci/juci//src/widgets/theme-picker.html
+msgid "Select Theme"
+msgstr "Valitse teema"
+
+# /home/martin/juci/juci//src/pages/404.html
+msgid "The page you were trying to access was not found!"
+msgstr "Virhe404 - Sivu, jota yrität katsoa, ei löytynyt."
+
+# /home/martin/juci/juci//src/pages/404.html
+msgid "404-title"
+msgstr "404"
+
+# /home/martin/juci/juci//src/pages/default.html
+msgid "default-title"
+msgstr "Oletus"
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+msgid "bootstrap-title"
+msgstr "Bootstrap"
+
+# /home/martin/juci/juci//src/pages/login.html
+msgid "login-title"
+msgstr "Kirjaudu sisään"
+
+# /home/martin/juci/juci//src/pages/overview.html
+msgid "overview-title"
+msgstr "Yleisnäkymä"
+
+# /home/martin/juci/juci//src/pages/404.html
+msgid "menu-404-title"
+msgstr "404"
+
+# /home/martin/juci/juci//src/pages/default.html
+msgid "menu-default-title"
+msgstr "Default"
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+msgid "menu-bootstrap-title"
+msgstr "JUCI"
+
+# /home/martin/juci/juci//src/pages/login.html
+msgid "menu-login-title"
+msgstr "Kirjaudu sisään"
+
+# /home/martin/juci/juci//src/pages/overview.html
+msgid "menu-overview-title"
+msgstr "Yleisnäkymä"
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+# #-#-#-#-#  custom.pot  #-#-#-#-#
+# phone
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+
+# #-#-#-#-#  all.pot  #-#-#-#-#
+# menu.d/juci-mod-voice.json
+# #-#-#-#-#  titles.pot  #-#-#-#-#
+# bin/usr/share/rpcd/menu.d/juci-asterisk.json
+

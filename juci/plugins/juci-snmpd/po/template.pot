@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-snmpd/src/pages//snmpd-config.html 
+msgid "snmpd-config-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-snmpd/src/pages//snmpd-config.html 
+msgid "menu-snmpd-config-title"
+msgstr ""
+

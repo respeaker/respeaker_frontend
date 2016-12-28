@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# ensure that bash exits with non-zero status if any command fails!
+set -e 
+
+BIN=$1
+if [ "$1" == "" ]; then BIN=bin; fi
+
+for file in `find $BIN/www/js/ -name "*.js"`; do 
+	echo "Compiling JS ${file}.."
+	uglifyjs ${file} > ${file}.out
+	mv ${file}.out ${file}
+done
+
+for file in `find $BIN/www/css/ -name "*.css"`; do 
+	echo "Compiling CSS ${file}.."
+	if [ "$(which yui-compressor)" != "" ]; then
+		yui-compressor ${file} > ${file}.out
+	else
+		yuicompressor ${file} > ${file}.out
+	fi
+	mv ${file}.out ${file}
+done

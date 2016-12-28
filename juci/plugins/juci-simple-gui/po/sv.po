@@ -1,0 +1,261 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv-SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Static Address"
+msgstr "Statisk IP-adress"
+
+msgid "DHCP v4"
+msgstr "DHCP server"
+
+msgid "DHCP v6"
+msgstr "DHCP server"
+
+msgid "PPP over Ethernet"
+msgstr "PPP över Ethernet"
+
+msgid "wireless.2g.info"
+msgstr "Här kan du konfigurera din 2Ghz trådlöst nätverk.  "
+
+msgid "2.4Ghz Wireless"
+msgstr "2.4Ghz Wireless"
+
+msgid "Radio Configuration"
+msgstr "Radiokonfiguration"
+
+msgid "SSID Configuration"
+msgstr "SSID Konfiguration"
+
+msgid "wireless.5g.info"
+msgstr "Här kan du konfigurera ditt 5Ghz trådlöst nätverk. "
+
+msgid "5Ghz Wireless"
+msgstr "5Ghz Trådlöst"
+
+msgid "lan.config.info"
+msgstr "Här kan du konfigurera ditt LAN nätverk. "
+
+msgid "LAN Configuration"
+msgstr "LAN Konfiguration"
+
+msgid "dhcp.config.info"
+msgstr "DHCP konfiguration"
+
+msgid "DHCP Configuration"
+msgstr "DHCP Konfiguration"
+
+msgid "wan.config.info"
+msgstr "WAN konfiguration"
+
+msgid "Configuration Method"
+msgstr "Konfigurationsmetod"
+
+msgid "Choose Configuration Option"
+msgstr "Välj konfigurationsväg"
+
+msgid "WAN Configuration"
+msgstr "WAN konfiguration"
+
+# share/menu.d/wifi.json
+msgid "simple-lan-config-title"
+msgstr "LAN"
+
+msgid "simple-services-title"
+msgstr "Tjänster"
+
+# share/menu.d/wifi.json
+msgid "simple-wan-config-title"
+msgstr "WAN"
+
+# /home/martin/juci/plugins/juci-simple-gui/src/pages/simple-lan-dhcp-config.html
+msgid "simple-lan-dhcp-config-title"
+msgstr "DHCP"
+
+# share/menu.d/wifi.json
+msgid "simple-admin-title"
+msgstr "Admin"
+
+msgid "simple-5g-wireless-title"
+msgstr "5Ghz WiFi"
+
+msgid "simple-2g-wireless-title"
+msgstr "2.4Ghz WiFi"
+
+msgid "menu-simple-lan-config-title"
+msgstr "LAN"
+
+msgid "menu-simple-services-title"
+msgstr "Tjänster"
+
+msgid "menu-simple-wan-config-title"
+msgstr "WAN"
+
+msgid "menu-simple-lan-dhcp-config-title"
+msgstr "DHCP"
+
+msgid "menu-simple-admin-title"
+msgstr "Admin"
+
+msgid "menu-simple-5g-wireless-title"
+msgstr "5Ghz WiFi"
+
+msgid "menu-simple-2g-wireless-title"
+msgstr "2.4Ghz WiFi"
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/widgets/uci.wireless.device.edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-client-mode.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-link-to-interfaces.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-wl/src/pages/wireless-status.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-adsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-ethernet/src/widgets/network-device-ethernet-port-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-adsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.js
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/widgets/network-device-vdsl-edit.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-vdsl.html
+
+# /home/martin/juci/plugins/juci-broadcom-dsl/src/pages/page-broadcom-dsl-status.html
+
+# phone
+
+# phone
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# /home/martin/juci/plugins/juci-asterisk/src/pages/phone-numbers.html
+
+# share/menu.d/status.json
+
+# menu.d/juci-mod-voice.json
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/rpc.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/js/uci.js
+
+# /home/martin/juci/juci//src/widgets/juci-config.js
+
+# /home/martin/juci/juci//src/widgets/juci-select.js
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-list-editor.html
+
+# /home/martin/juci/juci//src/widgets/juci-schedule-edit.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/bootstrap.html
+
+# share/menu.d/wifi.json
+
+# /home/martin/juci/juci//src/pages/404.html
+
+# /home/martin/juci/juci//src/pages/default.html
+
+# status
+
+# settings
+
+# internet
+
+# internet
+
+# internet
+
+# internet
+
+# internet
+
+# internet
+
+# wifi
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/wifi.json
+

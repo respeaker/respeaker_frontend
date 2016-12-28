@@ -1,0 +1,16 @@
+<juci-layout-with-sidebar>
+	<div ng-controller="DDNSPage">
+		<juci-config title="{{'DDNS (Dynamic DNS)'|translate}}">
+			<juci-config-info>{{ 'ddns.config.info' | translate }}</juci-config-info>
+			<div ng-if="ddns_not_installed" class="alert alert-danger" translate>DDNS backend is not installed on this router</div>
+			<div ng-if="!ddns_not_installed">
+				<juci-list-editor ng-items="ddns_list" 
+					item-editor="ddns-network-settings-edit" 
+					get-item-title="$item.label.value"
+					on-create="onAddDdnsSection()"
+					on-delete="onRemoveDdnsSection($item)"
+				></juci-list-editor>
+			</div>
+		</juci-config>
+	</div>
+</juci-layout-with-sidebar>

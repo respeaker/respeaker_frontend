@@ -1,0 +1,49 @@
+<div>
+	<div ng-show="loggedIn">
+		<p translate>You are logged in!</p>
+		<button class="btn btn-success" ng-click="doLogout()" translate>Log out</button>
+	</div>
+	<form ng-hide="loggedIn" class="form-signin" ng-model="form">
+		<h2 class="form-signin-heading" translate>Please sign in</h2>
+		<div class="form-group" ng-show="!connecting && !is_connected">
+			<div class="alert alert-danger">
+				<p translate>You do not have an RPC connection to the router!</p>
+			</div>
+		</div>
+		<div class="form-group" ng-show="connecting">
+			<div class="alert alert-info">
+				<p><i class="fa fa-spinner fa-spin"></i> <span translate>Connecting...</span><p>
+			</div>
+		</div>
+		<div class="form-group" ng-show="showHost">
+			<label class="sr-only" translate>RPC URL</label>
+			<input ng-model="form.host" type="text" class="form-control" placeholder="RPC Websocket Url (ws://..)">
+		</div>
+		<div class="form-group" ng-show="showlogin">
+			<label for="inputEmail"  class="sr-only" translate>Username</label>
+			<input ng-model="form.username" type="text" id="inputEmail" class="form-control" placeholder="{{'Username'|translate}}" required >
+		</div>
+		<div class="form-group">
+			<label for="inputPassword" class="sr-only" translate>Password</label>
+			<input ng-change="errors = []" ng-model="form.password" type="password" id="inputPassword" class="form-control" placeholder="{{'Password'|translate}}" required autofocus>
+		</div>
+		<!--<div class="checkbox">
+			<label>
+				<input ng-model="form.remember" type="checkbox" value="remember-me" translate> Remember me
+			</label>
+		</div>-->
+		<div class="form-group">
+			<button ng-disabled="logging_in" ng-click="doLogin()" class="btn btn-lg btn-primary btn-block" type="submit">
+				<i class="fa fa-spinner fa-spin" ng-show="logging_in"></i> <span ng-show="!logging_in" translate>Sign in</span>
+				<span ng-show="logging_in" translate>Signing in...</span>
+			</button>
+		</div>
+		<div class="form-group" ng-show="errors.length">
+			<div class="alert alert-danger">
+				<ul>
+					<li ng-repeat="item in errors track by $index">{{item}}</li>
+				</ul>
+			</div>
+		</div>
+	</form>
+</div>

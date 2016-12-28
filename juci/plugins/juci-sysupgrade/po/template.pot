@@ -1,0 +1,17 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-sysupgrade/src/pages//settings-upgrade-options.html 
+msgid "settings-upgrade-options-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-sysupgrade/src/pages//settings-upgrade.html 
+msgid "settings-upgrade-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-sysupgrade/src/pages//settings-upgrade-options.html 
+msgid "menu-settings-upgrade-options-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-sysupgrade/src/pages//settings-upgrade.html 
+msgid "menu-settings-upgrade-title"
+msgstr ""
+

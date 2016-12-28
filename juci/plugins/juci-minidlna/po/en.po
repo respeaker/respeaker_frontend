@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.js
+msgid "Add folder to share"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+msgid "Loading.."
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+msgid "All types"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+msgid "Video only"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+msgid "Audio only"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.js
+msgid "Pictures only"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.html
+msgid "Media type"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/widgets/minidlna-file-tree.html
+msgid "Select folder"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.html
+msgid "Enable"
+msgstr ""
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Interfaces"
+msgstr "Interfaces"
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.html
+msgid "Friendly Name"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.html
+msgid "Root Container"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.html
+msgid "Media Directories"
+msgstr ""
+
+# /home/martin/juci/plugins/juci-minidlna/src/pages/internet-services-minidlna.html
+msgid "Album-Art Names"
+msgstr ""
+
+msgid "MiniDLNA Settings"
+msgstr "MiniDLNA Settings"
+
+msgid "minidlna.settings.info"
+msgstr ""
+"MiniDLNA allows you to share your media from a hard drive connected to your "
+"router."
+
+msgid "internet-services-minidlna-title"
+msgstr "MiniDLNA"
+
+msgid "menu-internet-services-minidlna-title"
+msgstr "MiniDLNA"
+
+# share/menu.d/overview.json
+
+# share/menu.d/wifi.json
+
+# share/menu.d/internet.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/settings.json
+
+# share/menu.d/status.vodafone.json
+
+# share/menu.d/status.json
+
+# share/menu.d/status.json
+

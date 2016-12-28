@@ -1,0 +1,45 @@
+<div ng-controller="FileManagerCtrl" ngf-drop="addForUpload($files)" ngf-drag-over-class="'upload-dragover'" ngf-multiple="true">
+    <div ng-include="config.tplPath + '/navbar.html'"></div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-md-3 sidebar file-tree animated slow fadeIn" ng-include="config.tplPath + '/sidebar.html'" ng-show="config.sidebar &amp;&amp; fileNavigator.history[0]">
+            </div>
+            <div class="main" ng-class="config.sidebar &amp;&amp; fileNavigator.history[0] &amp;&amp; 'col-sm-8 col-md-9'">
+                <div ng-include="config.tplPath + '/' + viewTemplate" class="main-navigation clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div ng-include="config.tplPath + '/modals.html'"></div>
+    <div ng-include="config.tplPath + '/item-context-menu.html'"></div>
+
+        <!--底部 -->
+    <div class="footer-menu " >
+        <a href="">
+            <div class="icon" > 
+                <img src="src/img/Music@2x.png" >
+            </div>
+        </a>
+        <a href="">
+            <div class="icon active"> 
+                <img src="src/img/folder@2x.png" >
+            </div>
+        </a>
+        <a href="">
+            <div class="icon"> 
+                    <img src="src/img/link@2x.png" >
+            </div>
+        </a>
+        <a href="">
+            <div class="icon"> 
+                    <img src="src/img/layer@2x.png" >
+            </div>
+        </a>
+        <a href="">
+            <div class="icon"> 
+                    <img src="src/img/settings-1@2x.png" >
+            </div>
+        </a>
+      </div>
+</div>

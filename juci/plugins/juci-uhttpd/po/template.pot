@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-uhttpd/src/pages//page-uhttpd-settings.html 
+msgid "page-uhttpd-settings-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-uhttpd/src/pages//page-uhttpd-settings.html 
+msgid "menu-page-uhttpd-settings-title"
+msgstr ""
+

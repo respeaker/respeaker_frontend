@@ -1,0 +1,9 @@
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-igmpinfo/src/pages//status-tv.html 
+msgid "status-tv-title"
+msgstr ""
+
+-e # /Users/Apple/Documents/github/juci/plugins/juci-igmpinfo/src/pages//status-tv.html 
+msgid "menu-status-tv-title"
+msgstr ""
+
