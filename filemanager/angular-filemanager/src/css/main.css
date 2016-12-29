@@ -499,7 +499,7 @@ a:hover{
 }
 .head-title{
   float: right;
-  width: 560px;
+  width: 610px;
   line-height: 50px;
   height: 50px;
   display:none;
@@ -549,4 +549,43 @@ a:hover{
   .head-title {
     display: block;
   }
+}
+
+/**
+ * 颜色
+ */
+.sidebar>li>a:hover {
+    background: 0 0;
+    color: #1378b9;
+}
+.iconset .thumbnail.selected,.alert-danger,.modal .modal-header{
+  color: #9B8153;
+  background: #f1ede4;
+}
+.modal .modal-header .modal-title{
+  color: #9B8153;
+}
+.btn-primary{
+  background: #f1ede4;
+  color: #9B8153;
+}
+.modal .modal-header .close{
+  color: #9B8153;
+}
+input.form-control:focus{
+  -webkit-box-shadow: inset 0 -2px 0 #f1ede4;
+          box-shadow: inset 0 -2px 0 #f1ede4; 
+}
+
+.navbar-inverse .navbar-form input[type="text"]::-moz-placeholder, .navbar-inverse .navbar-form input[type="password"]::-moz-placeholder {
+    color: #ccc;
+    opacity: 1;
+}
+.navbar-inverse .navbar-form input[type="text"]::-webkit-input-placeholder, .navbar-inverse .navbar-form input[type="password"]::-webkit-input-placeholder {
+    color: #ccc;
+    opacity: 1;
+}
+.navbar-inverse .navbar-form input[type="text"]::-ms-input-placeholder, .navbar-inverse .navbar-form input[type="password"]::-ms-input-placeholder {
+    color: #ccc;
+    opacity: 1;
 }

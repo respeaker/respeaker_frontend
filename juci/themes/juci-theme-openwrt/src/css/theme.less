@@ -1,9 +1,32 @@
-@theme-success-color: #FF7200; 
+@theme-success-color: #f1ede4; 
 @theme-heading-color: #65564F; 
-@theme-link-color: #FF7200; 
-@theme-detail-color: #FF7200; 
+@theme-link-color: #9B8153; 
+@theme-detail-color: #9B8153; 
 @theme-footer-base-color: #ddd; 
 @theme-border-color: #eee; 
+
+/*OpenSans*/
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+/* 粗体 */
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+/*OpenSans-ExtraBold*/
+@font-face {
+    font-family: "OpenSans-Semibold";
+    src: url("../fonts/OpenSans-Semibold.ttf");
+}
+.semibold{
+  font-family: OpenSans-Semibold, Helvetica, Arial, sans-serif;
+}
+.bold{
+  font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
+}
 
 .gradient (@startColor: #eee, @endColor: white) {
 	background-color: @startColor;
@@ -20,28 +43,9 @@
 	box-shadow:		@x @y @blur @spread rgba(0, 0, 0, @alpha);
 }
 
-@font-face {
-    font-family: "eurostyle";
-    src: url("/fonts/proximanova-regular-webfont.woff") format('woff');
-}
-@font-face {
-    font-family: "inteno";
-    src: url("/fonts/proximanova-regular-webfont.woff") format('woff');
-}
-
-[ng\:cloak], [ng-cloak], .ng-cloak {
-	display: none !important;
-}
-
-@font-face {
-	font-family: "eurostyle";
-	src: url("/fonts/proximanova-regular-webfont.woff") format('woff');
-	font-family: "inteno";
-	src: url("/fonts/proximanova-regular-webfont.woff") format('woff');
-}
-
 body {
 	font-size: 16px;
+	font-family: OpenSans, Helvetica, Arial, sans-serif;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -65,7 +69,6 @@ ul.left-menu {
 		margin: 0;
 		background: none repeat scroll 0 0 transparent;
 		border: 0 none;
-		font-family: Arial,sans-serif;
 		font-size: 16px;
 		outline: 0 none;
 		vertical-align: middle;
@@ -78,7 +81,7 @@ ul.left-menu {
 		padding-left: 20px;
 		text-decoration: none;
 		white-space: nowrap; 
-		font-family: OpenSans-Bold;
+		font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
 		font-size: 12px;
 		color: #3D3D3D;
 		line-height: 40px;
@@ -109,7 +112,6 @@ ul.left-sub-menu {
 		margin: 0;
 		background: none repeat scroll 0 0 transparent;
 		border: 0 none;
-		font-family: Arial,sans-serif;
 		font-size: 16px;
 		outline: 0 none;
 		vertical-align: middle;
@@ -117,7 +119,7 @@ ul.left-sub-menu {
 }
 
 .btn-primary, .btn-success, .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open &>.dropdown-toggle.btn-primary, .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-	color: #FFF;
+	color: #9B8153;
 	background-color: @theme-success-color !important;
 	border-color: @theme-success-color !important;
 }
@@ -203,6 +205,11 @@ ul.left-sub-menu {
 			min-width: @control-width; 
 		}
 	}
+	.form-control{
+		&:focus{
+			border-color: #9B8153;
+		}
+	}
 }
 a, a:focus, a:hover {
 	color: @theme-link-color;
@@ -210,13 +217,9 @@ a, a:focus, a:hover {
 .nav-tabs &>li.active &>a, .nav-tabs &>li.active &>a:focus, .nav-tabs &>li.active &>a:hover {
 	background-color: @theme-success-color;
 	border-color: @theme-success-color !important;
-	color: white !important;
 	font-weight: bold;
 }
-.top-navbar .navbar-nav .open &>a, .top-navbar .navbar-nav &>a:hover {
-	background-color: #fafafa;
-	// border-top: 2px solid @theme-detail-color;
-}
+
 .overview-widgets {
 	& > .row {
 		& > .col-sm-4:nth-child(3n+1) {
@@ -243,7 +246,6 @@ div.logo {
 	h3 {
 		line-height: 40px;
 		margin-left: 90px;
-		font-family: eurostyle;
 		font-weight: bold;
 		text-transform: uppercase;
 	}
@@ -278,16 +280,17 @@ div.logo {
 	.navbar-nav {
 		& > li {
 			font-size: 14px;
-			letter-spacing: 0px;
 			& > a {
 				background-color: transparent;
 				color: #666666 !important;
 				line-height: 66px;
 				padding-top: 0px!important;
 				padding-bottom: 0px!important;
+				font-family: OpenSans-Semibold, Helvetica, Arial, sans-serif;
 			}
 			& > a:hover {
 			 background-color: transparent!important;
+			 border-bottom: 4px solid #9B8153;
 			}
 			& > .nav-more{
 				width: 90px;
@@ -304,6 +307,11 @@ div.logo {
 					color: #666666;
 					font-size: 14px;
 					text-decoration: none;
+					font-family: OpenSans-Semibold, Helvetica, Arial, sans-serif;
+				}
+				& > a:hover {
+					background-color: transparent!important;
+					// border-bottom: 4px solid #9B8153;
 				}
 			}
 		}
@@ -471,7 +479,7 @@ div.error {
 		li{
 			font-size: 16px;
 			line-height: 40px;
-			font-family: OpenSans-Bold;
+			font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
 			a{
 				color: #FFFFFF;
 			}
@@ -540,4 +548,15 @@ div.error {
 	to {left:0px;}
 }
 
+/**
+ * 颜色
+ */
+ .text-danger{
+	 color: #9B8153;
+ }
 
+.alert-danger{
+	color: #9B8153;
+  background: #f1ede4;
+	border: 0px;
+}
