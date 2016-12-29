@@ -542,6 +542,18 @@ a:hover{
 .footer-menu .active {
   border-bottom: 2px solid #9B8153;
 }
+.pull-left{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  float: inherit!important;
+}
+.navbar .navbar-form{
+  margin: 12px -15px;
+}
+
 @media screen and (min-width: 868px) {
   .footer-menu {
     display: none;

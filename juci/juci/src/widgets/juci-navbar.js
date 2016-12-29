@@ -51,19 +51,19 @@ JUCI.app
 	// 首页title 
 	$scope.titleList = [{
 		text: 'File Manager',
-		href: ''
+		href: '/files'
 	},{
 		text: 'Music Player',
-		href: ''
+		href: '/music'
 	},{
 		text: 'Connection',
-		href: ''
+		href: '/network'
 	},{
 		text: 'Web Terminal',
-		href: ''
+		href: '/terminal'
 	},{
 		text: 'Setting',
-		href: ''
+		href: '/settings'
 	}];
 	
 	$scope.isMore = false 

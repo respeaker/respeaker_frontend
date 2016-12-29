@@ -14,7 +14,7 @@
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav" >
 				<li class="dropdown" ng-repeat="item in titleList">
-					<a href="#!{{item.href}}" role="button" >{{item.text | translate}} </a>
+					<a href="{{item.href}}" role="button" >{{item.text | translate}} </a>
 				</li>
 				<li class="dropdown" ng-mouseleave="hideMore()" >
 					<a role="button tex-more" ng-mousedown="showMore()" >More <i class="fa fa-caret-down"></i> </a>
