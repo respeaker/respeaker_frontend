@@ -2,27 +2,27 @@
 	<ng-transclude></ng-transclude>
 	<!--底部 -->
 	<div class="footer-menu" >
-		<a href="">
+		<a href="/music">
 			<div class="icon" > 
 				<img src="/img/Music@2x.png" >
 			</div>
 		</a>
-		<a href="">
+		<a href="/files">
 			<div class="icon"> 
 				<img src="/img/folder@2x.png" >
 			</div>
 		</a>
-		<a href="">
+		<a href="/network">
 			<div class="icon active"> 
 					<img src="/img/link@2x.png" >
 			</div>
 		</a>
-		<a href="">
+		<a href="/terminal">
 			<div class="icon"> 
 					<img src="/img/layer@2x.png" >
 			</div>
 		</a>
-		<a href="">
+		<a href="/settings">
 			<div class="icon"> 
 					<img src="/img/settings-1@2x.png" >
 			</div>
@@ -36,7 +36,7 @@
 					<a href="#!{{item.href}}" role="button" >{{item.text | translate}} </a>
 				</li>
 				<li class="dropdown" ng-repeat="item in titleList">
-					<a href="#!{{item.href}}" role="button" >{{item.text | translate}} </a>
+					<a href="{{item.href}}" role="button" >{{item.text | translate}} </a>
 				</li>
 			</ul>
 		</div>

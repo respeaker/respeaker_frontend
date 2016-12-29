@@ -1,33 +1,33 @@
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-5 col-sm-8 col-md-9 ">
+            <div class="col-xs-5 col-sm-8 col-md-10 ">
                 <div ng-include="config.tplPath + '/current-folder-breadcrumb.html'" ng-show="config.breadcrumb" style="float:left">
                 </div>
                 <div class="head-title" >
                     <ul >
                         <li class="active">
-                            <a href="#!" role="button" >File Manager </a>
+                            <a href="/files" role="button" >File Manager </a>
                          </li>
                          <li >
-                            <a href="#!" role="button" class="ng-binding">Music Player </a>
+                            <a href="/music" role="button" >Music Player </a>
                          </li>
                          <li >
-                            <a href="#!" role="button" class="ng-binding">Connection</a>
+                            <a href="/network" role="button" >Connection</a>
                          </li>
                          <li >
-                            <a href="#!" role="button" class="ng-binding ">Web Terminal</a>
+                            <a href="/terminal" role="button" class="ng-binding ">Web Terminal</a>
                          </li>
                          <li >
-                            <a href="#!" role="button" class="ng-binding">Setting</a>
+                            <a href="/settings" role="button" >Setting</a>
                          </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-xs-7  col-sm-4 col-md-3">
+            <div class="col-xs-7  col-sm-4 col-md-2">
                 <div class="navbar-collapse">
                     <div class="navbar-form navbar-right text-right">
-                        <div class="pull-left visible-xs" ng-if="fileNavigator.currentPath.length">
+                        <div class="pull-left" ng-if="fileNavigator.currentPath.length">
                             <button class="btn btn-primary btn-flat" ng-click="fileNavigator.upDir()">
                                 <i class="glyphicon glyphicon-chevron-left"></i>
                             </button>

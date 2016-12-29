@@ -292,7 +292,7 @@ div.logo {
 			 background-color: transparent!important;
 			 border-bottom: 4px solid #9B8153;
 			}
-			& > .nav-more{
+			& > .nav-more {
 				width: 90px;
 				position: absolute;
 				top: 70px;
@@ -311,21 +311,16 @@ div.logo {
 				}
 				& > a:hover {
 					background-color: transparent!important;
-					// border-bottom: 4px solid #9B8153;
 				}
-			}
-		}
-		& > .open {
-			& > a:focus {
-				background-color: transparent;
-			}
-			& > a, & > a:hover {
-				background-color: transparent!important;
-				border-bottom: 4px solid #9B8153;
-				@media screen and (max-width: 968px) {
-					background-color: #ddd; 
+				.open {
+					& > a:focus {
+						background-color: transparent;
+					}
+					& > a, & > a:hover {
+						background-color: transparent!important;
+						color: #9B8153;
+					}
 				}
-			}
 		}
 		@media screen and (min-width: 968px) {
 		  margin: 0px;
@@ -343,6 +338,7 @@ div.logo {
 			}
 		}
 	}
+ }
 }
 
 .navbar-default {
@@ -551,12 +547,38 @@ div.error {
 /**
  * 颜色
  */
- .text-danger{
+.text-danger{
 	 color: #9B8153;
- }
+}
 
 .alert-danger{
 	color: #9B8153;
   background: #f1ede4;
 	border: 0px;
+}
+.text-success{
+	color: #9B8153;
+}
+.switch {
+	background: #f1ede4;
+  small {
+		background: #9B8153;
+	}
+}
+.switch.checked{
+  background: #f1ede4;
+  border:0px;
+}
+.progress-bar-info{
+	background: #9B8153;
+}
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success{
+	color:#9B8153;
+}
+.checkbox-info input[type="checkbox"]:checked + label::before{
+	background: #f1ede4;
+	border:0px;
+}
+.checkbox-info input[type="checkbox"]:checked + label::after{
+	color:#9B8153;
 }
